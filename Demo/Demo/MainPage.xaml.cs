@@ -1,45 +1,70 @@
-﻿namespace Demo
+﻿using Demo.Models.Animations;
+using Demo.Pages;
+using Demo.Services;
+
+namespace Demo
 {
     public partial class MainPage : ContentPage
     {
-        int count = 0;
-
+        bool loaded = false;
         public MainPage()
         {
             InitializeComponent();
+
+            LoadingScreen.RightGrid = LoadingScreenRight;
+            LoadingScreen.LeftGrid = LoadingScreenLeft;
+            NavigationService.AppView = AppGrid;
+            NavigationService.Views = new Dictionary<string, ContentView>()
+            {
+                { "Deck", new DeckView() },
+                { "Store", new StoreView() },
+                { "Leaderboard", new LeaderboardView() },
+                { "Quests", new QuestsView() },
+                { "Play", new PlayView() },
+                { "Game", new GameView() },
+            };
+
+            loaded = true;
         }
         protected override async void OnAppearing()
         {
             base.OnAppearing();
-            //await LoadingScreenFade();
+            // repeat wait until loaded == true
+            await Task.Delay(1000);
+            await LoadingScreen.TweenIn();
+            await Task.Delay(2000);
+            await LoadingScreen.TweenOut();
+            await LoadingScreenFade();
         }
         private async Task LoadingScreenFade()
         {
             LoadingScreenBackground.Opacity = 1;
-            await Task.Delay(6000);
             await LoadingScreenBackground.FadeToAsync(0, 400);
             LoadingScreenBackground.IsVisible = false;
         }
-        private async Task LoadingScreenAnimationIn()
+        private async void Menu_Button_Clicked(object sender, EventArgs e)
         {
-            uint dur = 1000;
-            LoadingScreenRight.TranslationX = 0;
-            LoadingScreenRight.TranslationY = 0;
-            LoadingScreenLeft.TranslationX = 0;
-            LoadingScreenLeft.TranslationY = 0;
-            await LoadingScreenRight.TranslateToAsync(200, -100, dur, Easing.Linear);
-            await LoadingScreenLeft.TranslateToAsync(-200, 100, dur, Easing.Linear);
-        }
-        private void OnCounterClicked(object? sender, EventArgs e)
-        {
-            count++;
+            if (sender == MenuDeckBtn)
+            {
+                await NavigationService.JumpToPage("Deck");
+            } 
+            else if (sender == MenuLeadboardBtn)
+            {
+                await NavigationService.JumpToPage("Leaderboard");
+            }
+            else if (sender == MenuPlayBtn)
+            {
+                await NavigationService.JumpToPage("Play");
+            }
+            else if (sender == MenuStoreBtn)
+            {
+                await NavigationService.JumpToPage("Store");
+            }
+            else if (sender == MenuQuestsBtn)
+            {
+                await NavigationService.JumpToPage("Quests");
+            }
 
-            if (count == 1)
-                CounterBtn.Text = $"Clicked {count} time";
-            else
-                CounterBtn.Text = $"Clicked {count} times";
-
-            SemanticScreenReader.Announce(CounterBtn.Text);
         }
     }
 }

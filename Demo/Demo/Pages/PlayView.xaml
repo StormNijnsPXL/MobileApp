@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentView xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Demo.Pages.PlayView">
+    <Grid
+        ColumnDefinitions="*"
+        RowDefinitions="1*,8*,1*,1*"
+        >
+        
+        <Label 
+            Grid.Row="0"
+            Text="Tutorial"
+            FontSize="32"
+            FontFamily="Pixelon"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" 
+            />
+        <Button
+            Grid.Row="2"
+            Text="PLAY"
+            Background="Green"
+            FontFamily="Pixelon"
+            FontSize="32"
+            Margin="0 50"
+            Clicked="Play_Clicked"
+            />
+    </Grid>
+</ContentView>
