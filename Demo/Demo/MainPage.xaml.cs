@@ -9,6 +9,15 @@ namespace Demo
     public partial class MainPage : ContentPage
     {
         bool loaded = false;
+        int currentViewIndex = 0;
+        Dictionary<int, string> viewIndexToName = new Dictionary<int, string>()
+        {
+            { 0, "Store" },
+            { 1, "Deck" },
+            { 2, "Play" },
+            { 3, "Quests" },
+            { 4, "Leaderboard" },
+        };
         public MainPage()
         {
             InitializeComponent();
@@ -41,14 +50,23 @@ namespace Demo
             {
                 await Task.Delay(100);
             } while (!loaded);
+            await LoadingScreen.TweenIn();
 
+            // Loading
             await NavigationService.JumpToPage("Play");
             SelectViewButton(MenuPlayBtn);
+            //
 
-            await LoadingScreen.TweenIn();
-            await Task.Delay(2000);
             await LoadingScreen.TweenOut();
             await LoadingScreenFade();
+
+            while (true)
+            {
+                await BackgroundImage.TranslateToAsync(-24, -8, 7000, Easing.SinInOut);
+                await BackgroundImage.TranslateToAsync(24, 8, 9000, Easing.SinInOut);
+                await BackgroundImage.TranslateToAsync(16, -10, 8000, Easing.SinInOut);
+                await BackgroundImage.TranslateToAsync(-24, -8, 7000, Easing.SinInOut);
+            }
         }
         private async Task LoadingScreenFade()
         {
@@ -93,5 +111,39 @@ namespace Demo
             }
 
         }
+
+        private async void AppViewSwiped(object sender, SwipedEventArgs e)
+        {
+            int count = viewIndexToName.Count;
+
+            switch (e.Direction)
+            {
+                case SwipeDirection.Left:
+                    currentViewIndex = (currentViewIndex + 1) % count;
+                    break;
+
+                case SwipeDirection.Right:
+                    currentViewIndex = (currentViewIndex - 1 + count) % count;
+                    break;
+
+                default:
+                    return;
+            }
+
+            string viewName = viewIndexToName[currentViewIndex];
+
+            await NavigationService.JumpToPage(viewName);
+
+            SelectViewButton(viewName switch
+            {
+                "Store" => MenuStoreBtn,
+                "Deck" => MenuDeckBtn,
+                "Play" => MenuPlayBtn,
+                "Quests" => MenuQuestsBtn,
+                "Leaderboard" => MenuLeadboardBtn,
+                _ => MenuPlayBtn
+            });
+        }
+
     }
 }

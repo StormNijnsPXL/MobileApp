@@ -10,35 +10,26 @@
             RowDefinitions="*,*"
             >
             <Grid
+                Background="Black"
+                Opacity=".75"
+                />
+            <Grid
                 ColumnDefinitions="*,*,*,*"
                 RowDefinitions="*,*"
                 Grid.Row="0"
-                Background="Gray"
                 Margin="20"
                 >
-                <CollectionView
-                        x:Name="MenuDeckCollection"
-                        Grid.ColumnSpan="4"
-                        >
-                    <CollectionView.ItemsLayout>
-                        <GridItemsLayout
-                            Orientation="Vertical"
-                            Span="4" 
-                            />
-                    </CollectionView.ItemsLayout>
-
-                    <CollectionView.ItemTemplate>
-                        <DataTemplate x:DataType="cards:Card">
-                            <components:CardComponent x:DataType="cards:Card" BindingContext="{Binding .}" />
-                        </DataTemplate>
-                    </CollectionView.ItemTemplate>
-                </CollectionView>
+                <Grid
+                    x:Name="MenuDeckGrid"
+                    Grid.ColumnSpan="4"
+                    ColumnDefinitions="*,*,*,*"
+                    RowDefinitions="*,*">
+                </Grid>
 
             </Grid>
             <ScrollView
                 Margin="0, 20"
                 Grid.Row="1"
-                Background="Gray"
                 >
                 <VerticalStackLayout>
                     <Label
@@ -46,7 +37,6 @@
                         VerticalTextAlignment="Center"
                         HorizontalTextAlignment="Center"
                         FontSize="32"
-                        FontFamily="Pixelon"
                         />
                 </VerticalStackLayout>
             </ScrollView>

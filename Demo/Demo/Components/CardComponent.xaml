@@ -1,45 +1,55 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentView xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:tool="clr-namespace:Demo.Controls"
              x:Class="Demo.Components.CardComponent">
     <Border
-        Stroke="#555555"
+        Stroke="#5599FF"
         StrokeThickness="1"
-        BackgroundColor="#252525"
-        Padding="8"
+        BackgroundColor="Gray"
+        Padding="4"
         Margin="4"
-        StrokeShape="RoundRectangle 10">
+        StrokeShape="RoundRectangle 2"
+        >
+        
+        <Border.Shadow>
+            <Shadow
+                Brush="#6688FF"
+                Offset="0,0"
+                Radius="10"
+                Opacity="0.8" />
+        </Border.Shadow>
 
-        <VerticalStackLayout Spacing="8">
-            <Grid
-                ColumnDefinitions="*,*,*"
-                RowDefinitions="*,*"
-                Background="Gray">
-                <Image
-                    Source="dotnet_bot.png"
-                    HeightRequest="70"
-                    Aspect="AspectFit" 
-                    Grid.RowSpan="2"
-                    Grid.ColumnSpan="3"
-                    />
-                <Image
-                    Source="dotnet_bot.png"
-                    HeightRequest="20"
-                    Aspect="AspectFit" 
-                    
-                    />
+        <Grid
+            ColumnDefinitions="*,*,*"
+            RowDefinitions="*,*,*"
+            Background="Gray">
+            <tool:PixelArt
+                Grid.Row="1"
+                Grid.RowSpan="1"
+                Grid.ColumnSpan="3"
+                ImageName="Icons/play.png"
+                HeightRequest="40"
+                WidthRequest="40" 
+                VerticalOptions="Center"
+                />
+            <tool:PixelArt
+                ImageName="Icons/play.png"
+                HeightRequest="20"
+                WidthRequest="20"
+                VerticalOptions="Center"
+                />
             <Label
-                Text="{Binding Name}"
-                FontFamily="Pixelon"
-                FontSize="14"
+                Text="Level 1"
                 TextColor="White"
+                FontAutoScalingEnabled="True"
                 HorizontalTextAlignment="Center"
-                LineBreakMode="WordWrap" 
-                Grid.Row="0"
+                VerticalTextAlignment="Center"
+                LineBreakMode="NoWrap" 
+                Grid.Row="2"
                 Grid.ColumnSpan="3"
                 />
-            </Grid>
-        </VerticalStackLayout>
+        </Grid>
 
     </Border>
 </ContentView>
