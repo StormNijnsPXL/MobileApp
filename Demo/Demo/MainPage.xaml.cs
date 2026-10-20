@@ -1,4 +1,6 @@
-﻿using Demo.Models.Animations;
+﻿using Demo.Data;
+using Demo.Models.Animations;
+using Demo.Models.Cards;
 using Demo.Pages;
 using Demo.Services;
 
@@ -13,6 +15,12 @@ namespace Demo
 
             LoadingScreen.RightGrid = LoadingScreenRight;
             LoadingScreen.LeftGrid = LoadingScreenLeft;
+            LoadingScreen.CreateTweens();
+            LoadingScreen.Reset();
+
+            Card.CreateCards();
+            LocalData.CreateData();
+
             NavigationService.AppView = AppGrid;
             NavigationService.Views = new Dictionary<string, ContentView>()
             {
@@ -29,8 +37,14 @@ namespace Demo
         protected override async void OnAppearing()
         {
             base.OnAppearing();
-            // repeat wait until loaded == true
-            await Task.Delay(1000);
+            do 
+            {
+                await Task.Delay(100);
+            } while (!loaded);
+
+            await NavigationService.JumpToPage("Play");
+            SelectViewButton(MenuPlayBtn);
+
             await LoadingScreen.TweenIn();
             await Task.Delay(2000);
             await LoadingScreen.TweenOut();
@@ -42,8 +56,21 @@ namespace Demo
             await LoadingScreenBackground.FadeToAsync(0, 400);
             LoadingScreenBackground.IsVisible = false;
         }
+        private static Border? currentViewButton;
+        private void SelectViewButton(Border btn)
+        {
+            if (currentViewButton == btn)
+                return;
+
+            currentViewButton?.Background = Brush.Transparent;
+            currentViewButton?.ScaleToAsync(1, 200, Easing.Linear);
+            btn.Background = Brush.CornflowerBlue;
+            btn.ScaleToAsync(1.1, 200, Easing.Linear);
+            currentViewButton = btn;
+        }
         private async void Menu_Button_Clicked(object sender, EventArgs e)
         {
+            SelectViewButton((Border)sender);
             if (sender == MenuDeckBtn)
             {
                 await NavigationService.JumpToPage("Deck");

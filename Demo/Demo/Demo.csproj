@@ -66,30 +66,48 @@
 	</ItemGroup>
 
 	<ItemGroup>
-		<PackageReference Include="CommunityToolkit.Maui" Version="15.0.1" />
-		<PackageReference Include="Microsoft.Maui.Controls" Version="10.0.110" />
-		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="10.0.0" />
+	  <None Remove="Resources\Images\Icons\play.png" />
 	</ItemGroup>
 
 	<ItemGroup>
-	  <MauiXaml Update="Pages\DeckView.xaml">
+		<PackageReference Include="CommunityToolkit.Maui" Version="15.0.1" />
+		<PackageReference Include="Microsoft.Maui.Controls" Version="10.0.110" />
+		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="10.0.0" />
+		<PackageReference Include="SkiaSharp" Version="4.153.1" />
+		<PackageReference Include="SkiaSharp.Views.Maui.Controls" Version="4.153.1" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <MauiXaml Update="Components\CardComponent.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="Pages\GameView.xaml">
+	  <MauiXaml Update="Views\DeckView.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="Pages\LeaderboardView.xaml">
+	  <MauiXaml Update="Views\GameView.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="Pages\PlayView.xaml">
+	  <MauiXaml Update="Views\LeaderboardView.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="Pages\QuestsView.xaml">
+	  <MauiXaml Update="Views\PlayView.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="Pages\StoreView.xaml">
+	  <MauiXaml Update="Views\QuestsView.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
+	  <MauiXaml Update="Views\StoreView.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Folder Include="Pages\" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <MauiImage Include="Resources\Images\Icons\play.png" />
+	  <MauiImage Include="Resources\Images\Icons\settings.svg" />
 	</ItemGroup>
 
 </Project>

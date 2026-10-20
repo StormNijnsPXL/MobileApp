@@ -16,15 +16,47 @@
 
             <Grid
                 Grid.Row="0"
-                Background="{StaticResource Gray}"
+                Background="{StaticResource DarkGray}"
                 >
-                <Label
-                    Text="Profile"
-                    HorizontalTextAlignment="Center"
-                    VerticalTextAlignment="Center"
-                    FontSize="32"
-                    FontFamily="Pixelon"
-                    />
+                <Grid
+                    ColumnDefinitions="2*,5*,5*"
+                    RowDefinitions="*,*"
+                    Padding="10"
+                    >
+                    <Label
+                        Grid.ColumnSpan="2"
+                        Text="Username"
+                        HorizontalTextAlignment="Start"
+                        VerticalTextAlignment="Center"
+                        FontAutoScalingEnabled="True"
+                        TextColor="LightBlue"
+                        FontFamily="Pixelon"
+                        />
+                    <Label
+                        Grid.Row="1"
+                        Grid.Column="0"
+                        Text="Lv.1"
+                        HorizontalTextAlignment="Start"
+                        VerticalTextAlignment="Center"
+                        FontAutoScalingEnabled="True"
+                        TextColor="Gold"
+                        FontFamily="Pixelon"
+                        />
+                    <ProgressBar
+                        Grid.Row="1"
+                        Grid.Column="1"
+                        Progress=".5"
+                        ProgressColor="Gold"
+                        VerticalOptions="End"
+                        />
+                    <Image
+                        Grid.Column="2"
+                        HorizontalOptions="End"
+                        Source="settings.svg"
+                        HeightRequest="40"
+                        Aspect="AspectFit"
+                        />
+                </Grid>
             </Grid>
             <Grid x:Name="AppGrid"
                 Grid.Row="1"
@@ -54,7 +86,7 @@
                     TextColor="White"
                     CornerRadius="0"
                     Padding="0"
-                    Clicked="Menu_Button_Clicked" />
+                     />
 
                 <Button x:Name="MenuDeckBtn"
                     Grid.Column="1"
@@ -65,19 +97,24 @@
                     TextColor="White"
                     CornerRadius="0"
                     Padding="0"
-                    Clicked="Menu_Button_Clicked" />
-
-                <Button x:Name="MenuPlayBtn"
+                     />
+                <Border
+                    x:Name="MenuPlayBtn"
                     Grid.Column="2"
-                    Text="Play"
-                    FontFamily="Pixelon"
-                    FontSize="20"
-                    BackgroundColor="Transparent"
-                    TextColor="White"
-                    CornerRadius="0"
-                    Padding="0"
-                    Clicked="Menu_Button_Clicked" />
-
+                    >
+                    <Border.GestureRecognizers>
+                        <TapGestureRecognizer 
+                            NumberOfTapsRequired="1"
+                            Tapped="Menu_Button_Clicked" 
+                            />
+                    </Border.GestureRecognizers>
+                    <Image 
+                        Source="play.png"
+                        Aspect="AspectFit"  
+                        HeightRequest="60"
+                        WidthRequest="60"
+                        />
+                </Border>
                 <Button x:Name="MenuQuestsBtn"
                     Grid.Column="3"
                     Text="Quests"
@@ -87,7 +124,7 @@
                     TextColor="White"
                     CornerRadius="0"
                     Padding="0"
-                    Clicked="Menu_Button_Clicked" />
+                     />
 
                 <Button x:Name="MenuLeadboardBtn"
                     Grid.Column="4"
@@ -98,7 +135,8 @@
                     TextColor="White"
                     CornerRadius="0"
                     Padding="0"
-                    Clicked="Menu_Button_Clicked" />
+                     
+                    />
 
             </Grid>
 

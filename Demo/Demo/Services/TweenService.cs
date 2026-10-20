@@ -7,9 +7,21 @@ namespace Demo.Services
 {
     internal class TweenService
     {
-        public static GridTween Create(Grid grid, TweenInfo tweenInfo, (double, double)position)
+        public static GridTween Create(
+            Grid grid,
+            TweenInfo tweenInfo,
+            (double, double) position)
         {
-            return new GridTween(grid, tweenInfo grid.TranslateToAsync(position.Item1,position.Item2, TweenInfo.Duration, TweenIfo);
+            return new GridTween(
+                grid,
+                tweenInfo,
+                () => grid.TranslateToAsync(
+                    position.Item1,
+                    position.Item2,
+                    (uint)tweenInfo.Duration,
+                    tweenInfo.EasingStyle
+                )
+            );
         }
     }
 }

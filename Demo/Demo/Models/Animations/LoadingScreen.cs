@@ -1,43 +1,45 @@
 ﻿using Demo.Services;
 using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Text;
 
 namespace Demo.Models.Animations
 {
     class LoadingScreen
     {
+        private readonly static TweenInfo _tweenInfo = new(1000, Easing.Linear);
+        private static Tween _tweenIn;
+        private static Tween _tweenOut;
         public static Grid RightGrid { get; set; }
         public static Grid LeftGrid { get; set; }
-        private static void Reset()
+        public static void Reset()
         {
             RightGrid.TranslationX = 600;
-            RightGrid.TranslationY = -100;
             LeftGrid.TranslationX = -600;
-            LeftGrid.TranslationY = 100;
         }
         public static async Task TweenIn()
         {
-            TweenInfo tweenInfo = new TweenInfo(1000, Easing.Linear);
-            GridTween rightTween = TweenService.Create(RightGrid, tweenInfo, (-230, 100));
-
-            uint dur = 1000;
-            Reset();
-            
-            //Task rightTween = RightGrid.TranslateToAsync(230, -100, dur, Easing.Linear);
-            Task leftTween = LeftGrid.TranslateToAsync(-230, 100, dur, Easing.Linear);
-            await Task.WhenAll(rightTween.Tween, leftTween);
+            await _tweenIn.Play();
         }
         public static async Task TweenOut()
         {
-            uint dur = 1000;
             RightGrid.TranslationX = 230;
-            RightGrid.TranslationY = -100;
             LeftGrid.TranslationX = -230;
-            LeftGrid.TranslationY = 100;
-            Task rightTween = RightGrid.TranslateToAsync(600, -100, dur, Easing.Linear);
-            Task leftTween = LeftGrid.TranslateToAsync(-600, 100, dur, Easing.Linear);
-            await Task.WhenAll(rightTween, leftTween);
+            await _tweenOut.Play();
+        }
+        public static void CreateTweens()
+        {
+            {
+                GridTween rightTween = TweenService.Create(RightGrid, _tweenInfo, (230, -100));
+                GridTween leftTween = TweenService.Create(LeftGrid, _tweenInfo, (-230, 100));
+                _tweenIn = new([.. rightTween.Tweens, .. leftTween.Tweens], _tweenInfo);
+            }
+            {
+                GridTween rightTween = TweenService.Create(RightGrid, _tweenInfo, (600, -100));
+                GridTween leftTween = TweenService.Create(LeftGrid, _tweenInfo, (-600, 100));
+                _tweenOut = new([.. rightTween.Tweens, .. leftTween.Tweens], _tweenInfo);
+            }
         }
     }
 }

@@ -9,7 +9,7 @@ public partial class PlayView : ContentView
 		InitializeComponent();
 	}
 
-    private async Task Play_Clicked(object sender, EventArgs e)
+    private async void Play_Clicked(object sender, EventArgs e)
     {
 		await NavigationService.JumpToPage("Game");
     }

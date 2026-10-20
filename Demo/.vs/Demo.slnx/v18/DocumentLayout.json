@@ -3,48 +3,40 @@
   "WorkspaceRootPath": "C:\\Users\\12502139\\Desktop\\ProgramLib\\Maui\\Repos\\MobileApp\\Demo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D1CCB24F-A868-F185-9228-8CC249247C79}|Demo\\Demo.csproj|c:\\users\\12502139\\desktop\\programlib\\maui\\repos\\mobileapp\\demo\\demo\\models\\animations\\gridtween.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D1CCB24F-A868-F185-9228-8CC249247C79}|Demo\\Demo.csproj|solutionrelative:demo\\models\\animations\\gridtween.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D1CCB24F-A868-F185-9228-8CC249247C79}|Demo\\Demo.csproj|c:\\users\\12502139\\desktop\\programlib\\maui\\repos\\mobileapp\\demo\\demo\\services\\tweenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D1CCB24F-A868-F185-9228-8CC249247C79}|Demo\\Demo.csproj|solutionrelative:demo\\services\\tweenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D1CCB24F-A868-F185-9228-8CC249247C79}|Demo\\Demo.csproj|c:\\users\\12502139\\desktop\\programlib\\maui\\repos\\mobileapp\\demo\\demo\\models\\animations\\tweeninfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D1CCB24F-A868-F185-9228-8CC249247C79}|Demo\\Demo.csproj|solutionrelative:demo\\models\\animations\\tweeninfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D1CCB24F-A868-F185-9228-8CC249247C79}|Demo\\Demo.csproj|c:\\users\\12502139\\desktop\\programlib\\maui\\repos\\mobileapp\\demo\\demo\\models\\animations\\tween.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D1CCB24F-A868-F185-9228-8CC249247C79}|Demo\\Demo.csproj|solutionrelative:demo\\models\\animations\\tween.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D1CCB24F-A868-F185-9228-8CC249247C79}|Demo\\Demo.csproj|c:\\users\\12502139\\desktop\\programlib\\maui\\repos\\mobileapp\\demo\\demo\\pages\\playview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D1CCB24F-A868-F185-9228-8CC249247C79}|Demo\\Demo.csproj|solutionrelative:demo\\pages\\playview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D1CCB24F-A868-F185-9228-8CC249247C79}|Demo\\Demo.csproj|c:\\users\\12502139\\desktop\\programlib\\maui\\repos\\mobileapp\\demo\\demo\\models\\animations\\loadingscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D1CCB24F-A868-F185-9228-8CC249247C79}|Demo\\Demo.csproj|solutionrelative:demo\\models\\animations\\loadingscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D1CCB24F-A868-F185-9228-8CC249247C79}|Demo\\Demo.csproj|c:\\users\\12502139\\desktop\\programlib\\maui\\repos\\mobileapp\\demo\\demo\\pages\\deckview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{D1CCB24F-A868-F185-9228-8CC249247C79}|Demo\\Demo.csproj|solutionrelative:demo\\pages\\deckview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D1CCB24F-A868-F185-9228-8CC249247C79}|Demo\\Demo.csproj|c:\\users\\12502139\\desktop\\programlib\\maui\\repos\\mobileapp\\demo\\demo\\services\\navigationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D1CCB24F-A868-F185-9228-8CC249247C79}|Demo\\Demo.csproj|solutionrelative:demo\\services\\navigationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D1CCB24F-A868-F185-9228-8CC249247C79}|Demo\\Demo.csproj|c:\\users\\12502139\\desktop\\programlib\\maui\\repos\\mobileapp\\demo\\demo\\pages\\playview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{D1CCB24F-A868-F185-9228-8CC249247C79}|Demo\\Demo.csproj|solutionrelative:demo\\pages\\playview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{D1CCB24F-A868-F185-9228-8CC249247C79}|Demo\\Demo.csproj|c:\\users\\12502139\\desktop\\programlib\\maui\\repos\\mobileapp\\demo\\demo\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D1CCB24F-A868-F185-9228-8CC249247C79}|Demo\\Demo.csproj|solutionrelative:demo\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D1CCB24F-A868-F185-9228-8CC249247C79}|Demo\\Demo.csproj|c:\\users\\12502139\\desktop\\programlib\\maui\\repos\\mobileapp\\demo\\demo\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D1CCB24F-A868-F185-9228-8CC249247C79}|Demo\\Demo.csproj|solutionrelative:demo\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D1CCB24F-A868-F185-9228-8CC249247C79}|Demo\\Demo.csproj|c:\\users\\12502139\\desktop\\programlib\\maui\\repos\\mobileapp\\demo\\demo\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{D1CCB24F-A868-F185-9228-8CC249247C79}|Demo\\Demo.csproj|solutionrelative:demo\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{D1CCB24F-A868-F185-9228-8CC249247C79}|Demo\\Demo.csproj|c:\\users\\12502139\\desktop\\programlib\\maui\\repos\\mobileapp\\demo\\demo\\views\\playview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D1CCB24F-A868-F185-9228-8CC249247C79}|Demo\\Demo.csproj|solutionrelative:demo\\views\\playview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1CCB24F-A868-F185-9228-8CC249247C79}|Demo\\Demo.csproj|c:\\users\\12502139\\desktop\\programlib\\maui\\repos\\mobileapp\\demo\\demo\\resources\\images\\icons\\play.png||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{D1CCB24F-A868-F185-9228-8CC249247C79}|Demo\\Demo.csproj|solutionrelative:demo\\resources\\images\\icons\\play.png||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1CCB24F-A868-F185-9228-8CC249247C79}|Demo\\Demo.csproj|c:\\users\\12502139\\desktop\\programlib\\maui\\repos\\mobileapp\\demo\\demo\\demo.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{D1CCB24F-A868-F185-9228-8CC249247C79}|Demo\\Demo.csproj|solutionrelative:demo\\demo.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1CCB24F-A868-F185-9228-8CC249247C79}|Demo\\Demo.csproj|c:\\users\\12502139\\desktop\\programlib\\maui\\repos\\mobileapp\\demo\\demo\\data\\localdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1CCB24F-A868-F185-9228-8CC249247C79}|Demo\\Demo.csproj|solutionrelative:demo\\data\\localdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1CCB24F-A868-F185-9228-8CC249247C79}|Demo\\Demo.csproj|c:\\users\\12502139\\desktop\\programlib\\maui\\repos\\mobileapp\\demo\\demo\\resources\\styles\\colors.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D1CCB24F-A868-F185-9228-8CC249247C79}|Demo\\Demo.csproj|solutionrelative:demo\\resources\\styles\\colors.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1CCB24F-A868-F185-9228-8CC249247C79}|Demo\\Demo.csproj|c:\\users\\12502139\\desktop\\programlib\\maui\\repos\\mobileapp\\demo\\demo\\views\\deckview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D1CCB24F-A868-F185-9228-8CC249247C79}|Demo\\Demo.csproj|solutionrelative:demo\\views\\deckview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1CCB24F-A868-F185-9228-8CC249247C79}|Demo\\Demo.csproj|c:\\users\\12502139\\desktop\\programlib\\maui\\repos\\mobileapp\\demo\\demo\\components\\cardcomponent.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D1CCB24F-A868-F185-9228-8CC249247C79}|Demo\\Demo.csproj|solutionrelative:demo\\components\\cardcomponent.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,85 +46,20 @@
       "DocumentGroups": [
         {
           "DockedWidth": 217,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "DeckView.xaml",
-              "DocumentMoniker": "C:\\Users\\12502139\\Desktop\\ProgramLib\\Maui\\Repos\\MobileApp\\Demo\\Demo\\Pages\\DeckView.xaml",
-              "RelativeDocumentMoniker": "Demo\\Pages\\DeckView.xaml",
-              "ToolTip": "C:\\Users\\12502139\\Desktop\\ProgramLib\\Maui\\Repos\\MobileApp\\Demo\\Demo\\Pages\\DeckView.xaml",
-              "RelativeToolTip": "Demo\\Pages\\DeckView.xaml",
-              "ViewState": "AgIAAC4AAAAAAAAAAAArwEMAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-10-19T10:11:42.155Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "TweenInfo.cs",
-              "DocumentMoniker": "C:\\Users\\12502139\\Desktop\\ProgramLib\\Maui\\Repos\\MobileApp\\Demo\\Demo\\Models\\Animations\\TweenInfo.cs",
-              "RelativeDocumentMoniker": "Demo\\Models\\Animations\\TweenInfo.cs",
-              "ToolTip": "C:\\Users\\12502139\\Desktop\\ProgramLib\\Maui\\Repos\\MobileApp\\Demo\\Demo\\Models\\Animations\\TweenInfo.cs",
-              "RelativeToolTip": "Demo\\Models\\Animations\\TweenInfo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-19T12:51:50.997Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "GridTween.cs",
-              "DocumentMoniker": "C:\\Users\\12502139\\Desktop\\ProgramLib\\Maui\\Repos\\MobileApp\\Demo\\Demo\\Models\\Animations\\GridTween.cs",
-              "RelativeDocumentMoniker": "Demo\\Models\\Animations\\GridTween.cs",
-              "ToolTip": "C:\\Users\\12502139\\Desktop\\ProgramLib\\Maui\\Repos\\MobileApp\\Demo\\Demo\\Models\\Animations\\GridTween.cs",
-              "RelativeToolTip": "Demo\\Models\\Animations\\GridTween.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-19T12:06:35.719Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Tween.cs",
-              "DocumentMoniker": "C:\\Users\\12502139\\Desktop\\ProgramLib\\Maui\\Repos\\MobileApp\\Demo\\Demo\\Models\\Animations\\Tween.cs",
-              "RelativeDocumentMoniker": "Demo\\Models\\Animations\\Tween.cs",
-              "ToolTip": "C:\\Users\\12502139\\Desktop\\ProgramLib\\Maui\\Repos\\MobileApp\\Demo\\Demo\\Models\\Animations\\Tween.cs",
-              "RelativeToolTip": "Demo\\Models\\Animations\\Tween.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-19T10:41:17.569Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "LoadingScreen.cs",
-              "DocumentMoniker": "C:\\Users\\12502139\\Desktop\\ProgramLib\\Maui\\Repos\\MobileApp\\Demo\\Demo\\Models\\Animations\\LoadingScreen.cs",
-              "RelativeDocumentMoniker": "Demo\\Models\\Animations\\LoadingScreen.cs",
-              "ToolTip": "C:\\Users\\12502139\\Desktop\\ProgramLib\\Maui\\Repos\\MobileApp\\Demo\\Demo\\Models\\Animations\\LoadingScreen.cs",
-              "RelativeToolTip": "Demo\\Models\\Animations\\LoadingScreen.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Title": "LocalData.cs",
+              "DocumentMoniker": "C:\\Users\\12502139\\Desktop\\ProgramLib\\Maui\\Repos\\MobileApp\\Demo\\Demo\\Data\\LocalData.cs",
+              "RelativeDocumentMoniker": "Demo\\Data\\LocalData.cs",
+              "ToolTip": "C:\\Users\\12502139\\Desktop\\ProgramLib\\Maui\\Repos\\MobileApp\\Demo\\Demo\\Data\\LocalData.cs",
+              "RelativeToolTip": "Demo\\Data\\LocalData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-19T10:40:37.547Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "TweenService.cs",
-              "DocumentMoniker": "C:\\Users\\12502139\\Desktop\\ProgramLib\\Maui\\Repos\\MobileApp\\Demo\\Demo\\Services\\TweenService.cs",
-              "RelativeDocumentMoniker": "Demo\\Services\\TweenService.cs",
-              "ToolTip": "C:\\Users\\12502139\\Desktop\\ProgramLib\\Maui\\Repos\\MobileApp\\Demo\\Demo\\Services\\TweenService.cs",
-              "RelativeToolTip": "Demo\\Services\\TweenService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAACCAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-19T10:40:34.677Z",
+              "WhenOpened": "2026-10-20T07:05:27.618Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
@@ -141,67 +68,105 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "NavigationService.cs",
-              "DocumentMoniker": "C:\\Users\\12502139\\Desktop\\ProgramLib\\Maui\\Repos\\MobileApp\\Demo\\Demo\\Services\\NavigationService.cs",
-              "RelativeDocumentMoniker": "Demo\\Services\\NavigationService.cs",
-              "ToolTip": "C:\\Users\\12502139\\Desktop\\ProgramLib\\Maui\\Repos\\MobileApp\\Demo\\Demo\\Services\\NavigationService.cs",
-              "RelativeToolTip": "Demo\\Services\\NavigationService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-19T10:29:13.441Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "PlayView.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\12502139\\Desktop\\ProgramLib\\Maui\\Repos\\MobileApp\\Demo\\Demo\\Pages\\PlayView.xaml.cs",
-              "RelativeDocumentMoniker": "Demo\\Pages\\PlayView.xaml.cs",
-              "ToolTip": "C:\\Users\\12502139\\Desktop\\ProgramLib\\Maui\\Repos\\MobileApp\\Demo\\Demo\\Pages\\PlayView.xaml.cs",
-              "RelativeToolTip": "Demo\\Pages\\PlayView.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-19T10:28:11.798Z",
+              "Title": "Demo",
+              "DocumentMoniker": "C:\\Users\\12502139\\Desktop\\ProgramLib\\Maui\\Repos\\MobileApp\\Demo\\Demo\\Demo.csproj",
+              "RelativeDocumentMoniker": "Demo\\Demo.csproj",
+              "ToolTip": "C:\\Users\\12502139\\Desktop\\ProgramLib\\Maui\\Repos\\MobileApp\\Demo\\Demo\\Demo.csproj",
+              "RelativeToolTip": "Demo\\Demo.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-10-20T13:45:38.982Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 3,
+              "Title": "play.png -  [Dutch (Netherlands)] - PNG [20x20, 32 bit, PNG]",
+              "DocumentMoniker": "C:\\Users\\12502139\\Desktop\\ProgramLib\\Maui\\Repos\\MobileApp\\Demo\\Demo\\Resources\\Images\\Icons\\play.png",
+              "RelativeDocumentMoniker": "Demo\\Resources\\Images\\Icons\\play.png",
+              "ToolTip": "C:\\Users\\12502139\\Desktop\\ProgramLib\\Maui\\Repos\\MobileApp\\Demo\\Demo\\Resources\\Images\\Icons\\play.png -  [Dutch (Netherlands)] - PNG [20x20, 32 bit, PNG]",
+              "RelativeToolTip": "Demo\\Resources\\Images\\Icons\\play.png -  [Dutch (Netherlands)] - PNG [20x20, 32 bit, PNG]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2026-10-20T13:43:07.081Z",
+              "EditorCaption": " -  [Dutch (Netherlands)] - PNG [20x20, 32 bit, PNG]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "PlayView.xaml",
-              "DocumentMoniker": "C:\\Users\\12502139\\Desktop\\ProgramLib\\Maui\\Repos\\MobileApp\\Demo\\Demo\\Pages\\PlayView.xaml",
-              "RelativeDocumentMoniker": "Demo\\Pages\\PlayView.xaml",
-              "ToolTip": "C:\\Users\\12502139\\Desktop\\ProgramLib\\Maui\\Repos\\MobileApp\\Demo\\Demo\\Pages\\PlayView.xaml",
-              "RelativeToolTip": "Demo\\Pages\\PlayView.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAWAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\12502139\\Desktop\\ProgramLib\\Maui\\Repos\\MobileApp\\Demo\\Demo\\Views\\PlayView.xaml",
+              "RelativeDocumentMoniker": "Demo\\Views\\PlayView.xaml",
+              "ToolTip": "C:\\Users\\12502139\\Desktop\\ProgramLib\\Maui\\Repos\\MobileApp\\Demo\\Demo\\Views\\PlayView.xaml",
+              "RelativeToolTip": "Demo\\Views\\PlayView.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-10-19T10:27:22.62Z",
+              "WhenOpened": "2026-10-20T13:27:28.817Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "MainPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\12502139\\Desktop\\ProgramLib\\Maui\\Repos\\MobileApp\\Demo\\Demo\\MainPage.xaml.cs",
-              "RelativeDocumentMoniker": "Demo\\MainPage.xaml.cs",
-              "ToolTip": "C:\\Users\\12502139\\Desktop\\ProgramLib\\Maui\\Repos\\MobileApp\\Demo\\Demo\\MainPage.xaml.cs",
-              "RelativeToolTip": "Demo\\MainPage.xaml.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAAAwwEAAAAA9AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-19T10:27:14.234Z",
+              "DocumentIndex": 6,
+              "Title": "Colors.xaml",
+              "DocumentMoniker": "C:\\Users\\12502139\\Desktop\\ProgramLib\\Maui\\Repos\\MobileApp\\Demo\\Demo\\Resources\\Styles\\Colors.xaml",
+              "RelativeDocumentMoniker": "Demo\\Resources\\Styles\\Colors.xaml",
+              "ToolTip": "C:\\Users\\12502139\\Desktop\\ProgramLib\\Maui\\Repos\\MobileApp\\Demo\\Demo\\Resources\\Styles\\Colors.xaml",
+              "RelativeToolTip": "Demo\\Resources\\Styles\\Colors.xaml",
+              "ViewState": "AgIAACMAAAAAAAAAAAAAACMAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-10-20T13:25:49.822Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 0,
               "Title": "MainPage.xaml",
               "DocumentMoniker": "C:\\Users\\12502139\\Desktop\\ProgramLib\\Maui\\Repos\\MobileApp\\Demo\\Demo\\MainPage.xaml",
               "RelativeDocumentMoniker": "Demo\\MainPage.xaml",
               "ToolTip": "C:\\Users\\12502139\\Desktop\\ProgramLib\\Maui\\Repos\\MobileApp\\Demo\\Demo\\MainPage.xaml",
               "RelativeToolTip": "Demo\\MainPage.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAlAAAAAAAAAA==",
+              "ViewState": "AgIAAGQAAAAAAAAAAAAAwHAAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-10-19T10:07:01.039Z",
+              "WhenOpened": "2026-10-20T12:09:23.234Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CardComponent.xaml",
+              "DocumentMoniker": "C:\\Users\\12502139\\Desktop\\ProgramLib\\Maui\\Repos\\MobileApp\\Demo\\Demo\\Components\\CardComponent.xaml",
+              "RelativeDocumentMoniker": "Demo\\Components\\CardComponent.xaml",
+              "ToolTip": "C:\\Users\\12502139\\Desktop\\ProgramLib\\Maui\\Repos\\MobileApp\\Demo\\Demo\\Components\\CardComponent.xaml",
+              "RelativeToolTip": "Demo\\Components\\CardComponent.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-10-20T08:07:55.453Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DeckView.xaml",
+              "DocumentMoniker": "C:\\Users\\12502139\\Desktop\\ProgramLib\\Maui\\Repos\\MobileApp\\Demo\\Demo\\Views\\DeckView.xaml",
+              "RelativeDocumentMoniker": "Demo\\Views\\DeckView.xaml",
+              "ToolTip": "C:\\Users\\12502139\\Desktop\\ProgramLib\\Maui\\Repos\\MobileApp\\Demo\\Demo\\Views\\DeckView.xaml",
+              "RelativeToolTip": "Demo\\Views\\DeckView.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-10-20T07:02:31.352Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\12502139\\Desktop\\ProgramLib\\Maui\\Repos\\MobileApp\\Demo\\Demo\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "Demo\\MainPage.xaml.cs",
+              "ToolTip": "C:\\Users\\12502139\\Desktop\\ProgramLib\\Maui\\Repos\\MobileApp\\Demo\\Demo\\MainPage.xaml.cs",
+              "RelativeToolTip": "Demo\\MainPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFEAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-20T06:43:48.073Z",
               "EditorCaption": ""
             }
           ]
