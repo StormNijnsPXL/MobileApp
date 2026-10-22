@@ -3,7 +3,7 @@ using SkiaSharp.Views.Maui;
 using SkiaSharp.Views.Maui.Controls;
 using System.Diagnostics;
 
-namespace Demo.Controls;
+namespace Demo.Models.SkiaSharp;
 public class PixelArt : SKCanvasView
 {
     public static readonly BindableProperty ImageNameProperty =

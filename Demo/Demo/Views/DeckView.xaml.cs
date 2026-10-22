@@ -11,7 +11,22 @@ public partial class DeckView : ContentView
 	{
 		InitializeComponent();
 
-        DisplayDeck(LocalData.Deck);
+        DisplayDeck(Deck.Cards);
+
+        var filteredCards = GetFilteredCardsList();
+        DisplayCardList(filteredCards);
+    }
+    private Dictionary<int, Card> GetFilteredCardsList()
+    {
+        Dictionary<int, Card> filteredCards = new Dictionary<int, Card>();
+        foreach (var card in Card.Cards.Values)
+        {
+            if (!Deck.Cards.Contains(card))
+            {
+                filteredCards.Add(card.Id, card);
+            }
+        }
+        return filteredCards;
     }
     private void DisplayDeck(IEnumerable<Card> playerDeck)
     {
@@ -31,5 +46,9 @@ public partial class DeckView : ContentView
 
             MenuDeckGrid.Children.Add(component);
         }
+    }
+    private void DisplayCardList(Dictionary<int, Card> cards)
+    {
+        MenuCardList.ItemsSource = cards.Values.ToList();
     }
 }

@@ -4,45 +4,35 @@
              xmlns:cards="clr-namespace:Demo.Models.Cards"
              xmlns:components="clr-namespace:Demo.Components"
              x:Class="Demo.Pages.DeckView">
-    <VerticalStackLayout>
-        <Grid
-            ColumnDefinitions="*"
-            RowDefinitions="*,*"
-            >
+    <Grid RowDefinitions="*,*">
+        <Grid Grid.Row="0"
+              RowDefinitions="*"
+              Padding="20"
+              BackgroundColor="#0B1020">
+
             <Grid
-                Background="Black"
-                Opacity=".75"
-                />
-            <Grid
+                x:Name="MenuDeckGrid"
                 ColumnDefinitions="*,*,*,*"
                 RowDefinitions="*,*"
-                Grid.Row="0"
-                Margin="20"
-                >
-                <Grid
-                    x:Name="MenuDeckGrid"
-                    Grid.ColumnSpan="4"
-                    ColumnDefinitions="*,*,*,*"
-                    RowDefinitions="*,*">
-                </Grid>
+                ColumnSpacing="8"
+                RowSpacing="8" />
 
-            </Grid>
-            <ScrollView
-                Margin="0, 20"
-                Grid.Row="1"
-                >
-                <VerticalStackLayout>
-                    <Label
-                        Text="Placeholder"
-                        VerticalTextAlignment="Center"
-                        HorizontalTextAlignment="Center"
-                        FontSize="32"
-                        />
-                </VerticalStackLayout>
-            </ScrollView>
         </Grid>
-        <ScrollView>
-            
-        </ScrollView>
-    </VerticalStackLayout>
+        <CollectionView
+            x:Name="MenuCardList"
+            Grid.Row="1"
+            ItemsSource="{Binding Cards}"
+            Margin="0"
+            ItemsLayout="VerticalGrid, 4"
+            VerticalScrollBarVisibility="Always">
+
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <components:CardComponent />
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+
+        </CollectionView>
+
+    </Grid>
 </ContentView>

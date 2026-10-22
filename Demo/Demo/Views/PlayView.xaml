@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentView xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             xmlns:tool="clr-namespace:Demo.Controls"
+             xmlns:tool="clr-namespace:Demo.Models.SkiaSharp"
+             xmlns:components="clr-namespace:Demo.Components"
              x:Class="Demo.Pages.PlayView">
     <Grid
         ColumnDefinitions="*"
@@ -10,10 +11,26 @@
         <Label 
             Grid.Row="0"
             Text="Tutorial"
+            Background="DarkSlateGray"
             FontSize="32"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" 
+            HorizontalTextAlignment="Center"
+            VerticalTextAlignment="Center"
+            VerticalOptions="Fill" 
+            HorizontalOptions="Fill" 
             />
+        <CollectionView
+            x:Name="RoadmapList"
+            Grid.Row="1"
+            VerticalScrollBarVisibility="Always"
+            Margin="20,0"
+            >
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <components:RoadMapComponent />
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+            
         <Border
             StrokeThickness="0"
             Grid.Row="2"

@@ -1,4 +1,5 @@
 ﻿using Demo.Data;
+using Demo.Models;
 using Demo.Models.Animations;
 using Demo.Models.Cards;
 using Demo.Pages;
@@ -9,15 +10,6 @@ namespace Demo
     public partial class MainPage : ContentPage
     {
         bool loaded = false;
-        int currentViewIndex = 0;
-        Dictionary<int, string> viewIndexToName = new Dictionary<int, string>()
-        {
-            { 0, "Store" },
-            { 1, "Deck" },
-            { 2, "Play" },
-            { 3, "Quests" },
-            { 4, "Leaderboard" },
-        };
         public MainPage()
         {
             InitializeComponent();
@@ -27,8 +19,10 @@ namespace Demo
             LoadingScreen.CreateTweens();
             LoadingScreen.Reset();
 
+            Rarity.CreateRarities();
             Card.CreateCards();
             LocalData.CreateData();
+            RoadmapLevel.CreateLevels();
 
             NavigationService.AppView = AppGrid;
             NavigationService.Views = new Dictionary<string, ContentView>()
@@ -111,28 +105,30 @@ namespace Demo
             }
 
         }
-
         private async void AppViewSwiped(object sender, SwipedEventArgs e)
         {
-            int count = viewIndexToName.Count;
+            if (NavigationService.IsNavigating)
+                return;
 
-            switch (e.Direction)
+            int count = NavigationService.ViewIndexToName.Count;
+
+            int direction = e.Direction switch
             {
-                case SwipeDirection.Left:
-                    currentViewIndex = (currentViewIndex + 1) % count;
-                    break;
+                SwipeDirection.Left => 1,
+                SwipeDirection.Right => -1,
+                _ => 0
+            };
 
-                case SwipeDirection.Right:
-                    currentViewIndex = (currentViewIndex - 1 + count) % count;
-                    break;
+            if (direction == 0)
+                return;
 
-                default:
-                    return;
-            }
+            int nextIndex = (
+                NavigationService.CurrentViewIndex + direction + count
+            ) % count;
 
-            string viewName = viewIndexToName[currentViewIndex];
+            string viewName = NavigationService.ViewIndexToName[nextIndex];
 
-            await NavigationService.JumpToPage(viewName);
+            await NavigationService.SlideToPage(viewName, direction);
 
             SelectViewButton(viewName switch
             {
@@ -144,6 +140,7 @@ namespace Demo
                 _ => MenuPlayBtn
             });
         }
+
 
     }
 }

@@ -1,8 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             xmlns:skia="clr-namespace:SkiaSharp.Views.Maui.Controls;assembly=SkiaSharp.Views.Maui.Controls"
-             xmlns:tool="clr-namespace:Demo.Controls"
+             xmlns:tool="clr-namespace:Demo.Models.SkiaSharp"
              x:Class="Demo.MainPage"
              >
     <ContentPage.Resources>
@@ -21,7 +20,6 @@
                    VerticalOptions="Fill"
                    InputTransparent="True" 
                    Scale="1.2"
-                   
                    />
         </Grid>
         <Grid
@@ -70,27 +68,20 @@
                         />
                 </Grid>
             </Grid>
+
             <Grid x:Name="AppGrid"
-                Grid.Row="1"
-                >
+              Grid.Row="1"
+              HorizontalOptions="Fill"
+              VerticalOptions="Fill">
                 <Grid.GestureRecognizers>
                     <SwipeGestureRecognizer
                         Direction="Left"
-                        Swiped="AppViewSwiped"
-                        />
+                        Swiped="AppViewSwiped" />
                     <SwipeGestureRecognizer
                         Direction="Right"
-                        Swiped="AppViewSwiped"
-                        />
+                        Swiped="AppViewSwiped" />
                 </Grid.GestureRecognizers>
-                <Label
-                  Text="App"
-                  HorizontalTextAlignment="Center"
-                  VerticalTextAlignment="Center"
-                  FontSize="32"
-                  />
             </Grid>
-
 
             <Grid
                 Grid.Row="2"
@@ -108,7 +99,7 @@
                             />
                     </Border.GestureRecognizers>
                     <tool:PixelArt
-                       ImageName="Icons/play.png"
+                       ImageName="Crates/common.png"
                        HeightRequest="50"
                        WidthRequest="50" 
                        />
@@ -123,11 +114,20 @@
                             Tapped="Menu_Button_Clicked" 
                             />
                     </Border.GestureRecognizers>
-                    <tool:PixelArt
-                       ImageName="Icons/play.png"
-                       HeightRequest="50"
-                       WidthRequest="50" 
-                       />
+                    <Grid>
+                        <tool:PixelArt
+                           ImageName="UI/cardSpecial.png"
+                           HeightRequest="38"
+                           WidthRequest="26" 
+                           />
+                        <Image
+                            Source="splash.png"
+                            WidthRequest="22"
+                            HorizontalOptions="Center"
+                            VerticalOptions="Center"
+                            />
+                    </Grid>
+
                 </Border>
                 <Border
                     x:Name="MenuPlayBtn"
@@ -156,7 +156,7 @@
                             />
                     </Border.GestureRecognizers>
                     <tool:PixelArt
-                        ImageName="Icons/play.png"
+                        ImageName="Icons/scrap.png"
                         HeightRequest="50"
                         WidthRequest="50" 
                         />
@@ -172,7 +172,7 @@
                             />
                     </Border.GestureRecognizers>
                     <tool:PixelArt
-                        ImageName="Icons/play.png"
+                        ImageName="Icons/gold.png"
                         HeightRequest="50"
                         WidthRequest="50" 
                         />
