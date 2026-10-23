@@ -23,6 +23,7 @@ namespace Demo
             Card.CreateCards();
             LocalData.CreateData();
             RoadmapLevel.CreateLevels();
+            Shop.CreateShopItems();
 
             NavigationService.AppView = AppGrid;
             NavigationService.Views = new Dictionary<string, ContentView>()

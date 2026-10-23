@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentView xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:tool="clr-namespace:Demo.Models.SkiaSharp"
+             xmlns:components="clr-namespace:Demo.Components"
+             x:Class="Demo.Components.ShopItem">
+    <Grid
+        Background="SandyBrown"
+        RowDefinitions="1*,1*,5*,*"
+        Padding="0,5"
+        >
+        
+        <tool:OutlinedLabel
+            Grid.Row="0"
+            Text="{Binding Name}"
+            FontSize="20"
+            HorizontalOptions="Center"
+            VerticalOptions="Center" />
+
+        <tool:OutlinedLabel
+            Grid.Row="1"
+            Text="{Binding Rarity.Name}"
+            TextColor="{Binding Rarity.Color}"
+            FontSize="20"
+            HorizontalOptions="Center"
+            VerticalOptions="Center">
+
+            <tool:OutlinedLabel.Shadow>
+                <Shadow
+                    Brush="{Binding Rarity.Color}"
+                    Radius="2"
+                    Opacity="1"
+                    Offset="0,0" />
+            </tool:OutlinedLabel.Shadow>
+
+        </tool:OutlinedLabel>
+
+        <components:CardComponent
+            Grid.Row="2" />
+
+        <HorizontalStackLayout
+            Grid.Row="3"
+            HorizontalOptions="Center"
+            VerticalOptions="Center"
+            Spacing="2">
+
+            <tool:OutlinedLabel
+                Text="{Binding Rarity.Value}"
+                FontSize="20"
+                VerticalOptions="Center"
+                />
+
+            <tool:PixelArt
+                HeightRequest="25"
+                WidthRequest="25"
+                ImageName="{Binding Rarity.Currency.ImageUrl}"
+                VerticalOptions="Center"
+                />
+        </HorizontalStackLayout>
+
+    </Grid>
+</ContentView>

@@ -27,21 +27,6 @@ namespace Demo.Models
             Levels.Clear();
 
             new RoadmapLevel(
-                6,
-                null,
-                null
-            );
-            new RoadmapLevel(
-                5,
-                null,
-                null
-            );
-            new RoadmapLevel(
-                4,
-                null,
-                null
-            );
-            new RoadmapLevel(
                 3,
                 null,
                 null

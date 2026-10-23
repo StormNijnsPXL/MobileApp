@@ -11,17 +11,31 @@
         Margin="4"
         StrokeShape="RoundRectangle 2"
         HeightRequest="94"
-        WidthRequest="65"
-        >
-        
+        WidthRequest="65">
+
+        <Border.Triggers>
+            <DataTrigger
+                TargetType="Border"
+                Binding="{Binding Rarity.Glow}"
+                Value="False">
+
+                <Setter Property="Shadow">
+                    <Setter.Value>
+                        <Shadow Opacity="0" />
+                    </Setter.Value>
+                </Setter>
+
+            </DataTrigger>
+        </Border.Triggers>
+
         <Border.Shadow>
             <Shadow
-                Brush="{Binding Rarity.Color}"
-                Offset="0,0"
-                Radius="6"
-                Opacity="1" />
+            Brush="{Binding Rarity.Color}"
+            Offset="0,0"
+            Radius="6"
+            Opacity="1" />
         </Border.Shadow>
-        
+
         <Grid
             ColumnDefinitions="*,*,*"
             RowDefinitions="*,*,*">

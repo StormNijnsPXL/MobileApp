@@ -88,6 +88,9 @@
 	  <MauiXaml Update="Components\RoadMapTileComponent.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
+	  <MauiXaml Update="Components\ShopItem.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="Views\DeckView.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
