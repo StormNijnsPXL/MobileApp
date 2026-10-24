@@ -17,6 +17,10 @@ namespace Demo.Models.Cards
         public string? ImageUrl { get; set; }
         public string? CardConceptBy { get; set; }
         public Rarity Rarity { get; set; }
+        public DateTime DateUnlocked { get; set; }
+        public Card()
+        {
+        }
         public Card(int id, string name, string description, int cost, int health, int damage, string? imageUrl, Rarity rarity, string? cardConceptBy)
         {
             Id = id;

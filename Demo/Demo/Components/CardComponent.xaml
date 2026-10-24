@@ -55,7 +55,17 @@
                 HeightRequest="40"
                 WidthRequest="40" 
                 VerticalOptions="Center"
-                />
+                Scale="1.3"
+                >
+                <tool:PixelArt.Shadow>
+                    <Shadow 
+                        Brush="Gray"
+                        Opacity=".5"
+                        Offset="0,0"
+                        Radius="5"
+                        />
+                </tool:PixelArt.Shadow>
+            </tool:PixelArt>
 
             <Border
                 TranslationX="5"

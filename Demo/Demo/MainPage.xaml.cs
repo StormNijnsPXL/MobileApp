@@ -50,6 +50,9 @@ namespace Demo
             // Loading
             await NavigationService.JumpToPage("Play");
             SelectViewButton(MenuPlayBtn);
+            UsernameLabel.Text = LocalData.User.DisplayName;
+            LevelLabel.Text = $"Lv.{LocalData.PlayerData.Level}";
+            ExperienceProgressBar.Progress = LocalData.PlayerData.Experience / 100;
             //
 
             await LoadingScreen.TweenOut();

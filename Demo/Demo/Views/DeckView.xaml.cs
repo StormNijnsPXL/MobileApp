@@ -11,17 +11,18 @@ public partial class DeckView : ContentView
 	{
 		InitializeComponent();
 
-        DisplayDeck(Deck.Cards);
+        Deck deck = LocalData.PlayerData.Deck;
+        DisplayDeck(deck.Cards);
 
-        var filteredCards = GetFilteredCardsList();
+        var filteredCards = GetFilteredCardsList(deck);
         DisplayCardList(filteredCards);
     }
-    private Dictionary<int, Card> GetFilteredCardsList()
+    private Dictionary<int, Card> GetFilteredCardsList(Deck deck)
     {
         Dictionary<int, Card> filteredCards = new Dictionary<int, Card>();
         foreach (var card in Card.Cards.Values)
         {
-            if (!Deck.Cards.Contains(card))
+            if (!deck.Cards.Contains(card))
             {
                 filteredCards.Add(card.Id, card);
             }

@@ -37,6 +37,7 @@
                     >
                     <Label
                         Grid.ColumnSpan="2"
+                        x:Name="UsernameLabel"
                         Text="Username"
                         HorizontalTextAlignment="Start"
                         VerticalTextAlignment="Center"
@@ -46,6 +47,7 @@
                     <Label
                         Grid.Row="1"
                         Grid.Column="0"
+                        x:Name="LevelLabel"
                         Text="Lv.1"
                         HorizontalTextAlignment="Start"
                         VerticalTextAlignment="Center"
@@ -55,6 +57,7 @@
                     <ProgressBar
                         Grid.Row="1"
                         Grid.Column="1"
+                        x:Name="ExperienceProgressBar"
                         Progress=".5"
                         ProgressColor="Gold"
                         VerticalOptions="End"

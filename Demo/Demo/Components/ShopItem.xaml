@@ -21,7 +21,7 @@
             Grid.Row="1"
             Text="{Binding Rarity.Name}"
             TextColor="{Binding Rarity.Color}"
-            FontSize="20"
+            FontSize="16"
             HorizontalOptions="Center"
             VerticalOptions="Center">
 

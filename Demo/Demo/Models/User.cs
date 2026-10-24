@@ -10,5 +10,12 @@ namespace Demo.Models
         public string Name { get; set; }
         public string DisplayName { get; set; }
         public DateTime DateCreated { get; set; }
+        public User(int userId, string name, string displayName, DateTime dateCreated)
+        {
+            UserId = userId;
+            Name = name;
+            DisplayName = displayName;
+            DateCreated = dateCreated;
+        }
     }
 }

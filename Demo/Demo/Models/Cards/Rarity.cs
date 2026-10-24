@@ -31,7 +31,7 @@ namespace Demo.Models.Cards
             new Rarity(1, "Uncommon", "#41CD7D", "UI/cardGreen.png", 50, Currency.Currencies["Scrap"], false);
             new Rarity(2, "Rare", "#4191FF", "UI/cardBlue.png", 200, Currency.Currencies["Scrap"], true);
             new Rarity(3, "Epic", "#AF5AFF", "UI/cardPurple.png", 15000, Currency.Currencies["Scrap"], true);
-            new Rarity(4, "Legendary", "#FFAF2D", "UI/cardYellow.png", 100000, Currency.Currencies["Scrap"], true);
+            new Rarity(4, "Legendary", "#FFAF2D", "UI/cardYellow.png", 500, Currency.Currencies["Gold"], true);
         }
     }
 }

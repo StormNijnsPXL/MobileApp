@@ -6,6 +6,13 @@ namespace Demo.Models.Cards
 {
     internal class Deck
     {
-        public static Card[] Cards { get; set; } = new Card[8];
+        public Card[] Cards { get; set; } = new Card[8];
+        public Deck()
+        {
+        }
+        public Deck(Card[] cards)
+        {
+            Cards = cards;
+        }
     }
 }
