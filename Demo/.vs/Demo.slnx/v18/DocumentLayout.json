@@ -1,34 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Gamer\\Desktop\\Scripts\\Maui\\PixelDeck\\Demo\\",
+  "WorkspaceRootPath": "C:\\Users\\12502139\\Desktop\\ProgramLib\\Maui\\Repos\\MobileApp\\Demo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D1CCB24F-A868-F185-9228-8CC249247C79}|Demo\\Demo.csproj|c:\\users\\gamer\\desktop\\scripts\\maui\\pixeldeck\\demo\\demo\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{D1CCB24F-A868-F185-9228-8CC249247C79}|Demo\\Demo.csproj|solutionrelative:demo\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{D1CCB24F-A868-F185-9228-8CC249247C79}|Demo\\Demo.csproj|c:\\users\\12502139\\desktop\\programlib\\maui\\repos\\mobileapp\\demo\\demo\\components\\roadmaptilecomponent.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1CCB24F-A868-F185-9228-8CC249247C79}|Demo\\Demo.csproj|solutionrelative:demo\\components\\roadmaptilecomponent.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D1CCB24F-A868-F185-9228-8CC249247C79}|Demo\\Demo.csproj|c:\\users\\gamer\\desktop\\scripts\\maui\\pixeldeck\\demo\\demo\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D1CCB24F-A868-F185-9228-8CC249247C79}|Demo\\Demo.csproj|solutionrelative:demo\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D1CCB24F-A868-F185-9228-8CC249247C79}|Demo\\Demo.csproj|c:\\users\\12502139\\desktop\\programlib\\maui\\repos\\mobileapp\\demo\\demo\\components\\roadmaptilecomponent.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D1CCB24F-A868-F185-9228-8CC249247C79}|Demo\\Demo.csproj|solutionrelative:demo\\components\\roadmaptilecomponent.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D1CCB24F-A868-F185-9228-8CC249247C79}|Demo\\Demo.csproj|c:\\users\\gamer\\desktop\\scripts\\maui\\pixeldeck\\demo\\demo\\models\\playerdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D1CCB24F-A868-F185-9228-8CC249247C79}|Demo\\Demo.csproj|solutionrelative:demo\\models\\playerdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D1CCB24F-A868-F185-9228-8CC249247C79}|Demo\\Demo.csproj|c:\\users\\12502139\\desktop\\programlib\\maui\\repos\\mobileapp\\demo\\demo\\models\\level.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1CCB24F-A868-F185-9228-8CC249247C79}|Demo\\Demo.csproj|solutionrelative:demo\\models\\level.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D1CCB24F-A868-F185-9228-8CC249247C79}|Demo\\Demo.csproj|c:\\users\\gamer\\desktop\\scripts\\maui\\pixeldeck\\demo\\demo\\data\\shop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D1CCB24F-A868-F185-9228-8CC249247C79}|Demo\\Demo.csproj|solutionrelative:demo\\data\\shop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D1CCB24F-A868-F185-9228-8CC249247C79}|Demo\\Demo.csproj|c:\\users\\12502139\\desktop\\programlib\\maui\\repos\\mobileapp\\demo\\demo\\models\\roadmaplevel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1CCB24F-A868-F185-9228-8CC249247C79}|Demo\\Demo.csproj|solutionrelative:demo\\models\\roadmaplevel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D1CCB24F-A868-F185-9228-8CC249247C79}|Demo\\Demo.csproj|c:\\users\\gamer\\desktop\\scripts\\maui\\pixeldeck\\demo\\demo\\components\\shopitem.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{D1CCB24F-A868-F185-9228-8CC249247C79}|Demo\\Demo.csproj|solutionrelative:demo\\components\\shopitem.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D1CCB24F-A868-F185-9228-8CC249247C79}|Demo\\Demo.csproj|c:\\users\\gamer\\desktop\\scripts\\maui\\pixeldeck\\demo\\demo\\models\\cards\\card.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D1CCB24F-A868-F185-9228-8CC249247C79}|Demo\\Demo.csproj|solutionrelative:demo\\models\\cards\\card.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D1CCB24F-A868-F185-9228-8CC249247C79}|Demo\\Demo.csproj|c:\\users\\gamer\\desktop\\scripts\\maui\\pixeldeck\\demo\\demo\\models\\cards\\rarity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D1CCB24F-A868-F185-9228-8CC249247C79}|Demo\\Demo.csproj|solutionrelative:demo\\models\\cards\\rarity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D1CCB24F-A868-F185-9228-8CC249247C79}|Demo\\Demo.csproj|c:\\users\\12502139\\desktop\\programlib\\maui\\repos\\mobileapp\\demo\\demo\\components\\roadmapcomponent.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D1CCB24F-A868-F185-9228-8CC249247C79}|Demo\\Demo.csproj|solutionrelative:demo\\components\\roadmapcomponent.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -37,8 +29,8 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 217,
-          "SelectedChildIndex": 2,
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -46,88 +38,67 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "PlayerData.cs",
-              "DocumentMoniker": "C:\\Users\\Gamer\\Desktop\\Scripts\\Maui\\PixelDeck\\Demo\\Demo\\Models\\PlayerData.cs",
-              "RelativeDocumentMoniker": "Demo\\Models\\PlayerData.cs",
-              "ToolTip": "C:\\Users\\Gamer\\Desktop\\Scripts\\Maui\\PixelDeck\\Demo\\Demo\\Models\\PlayerData.cs",
-              "RelativeToolTip": "Demo\\Models\\PlayerData.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBEAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-24T16:00:11.208Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MainPage.xaml",
-              "DocumentMoniker": "C:\\Users\\Gamer\\Desktop\\Scripts\\Maui\\PixelDeck\\Demo\\Demo\\MainPage.xaml",
-              "RelativeDocumentMoniker": "Demo\\MainPage.xaml",
-              "ToolTip": "C:\\Users\\Gamer\\Desktop\\Scripts\\Maui\\PixelDeck\\Demo\\Demo\\MainPage.xaml",
-              "RelativeToolTip": "Demo\\MainPage.xaml",
-              "ViewState": "AgIAAEMAAAAAAAAAAAAWwFwAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "RoadMapComponent.xaml",
+              "DocumentMoniker": "C:\\Users\\12502139\\Desktop\\ProgramLib\\Maui\\Repos\\MobileApp\\Demo\\Demo\\Components\\RoadMapComponent.xaml",
+              "RelativeDocumentMoniker": "Demo\\Components\\RoadMapComponent.xaml",
+              "ToolTip": "C:\\Users\\12502139\\Desktop\\ProgramLib\\Maui\\Repos\\MobileApp\\Demo\\Demo\\Components\\RoadMapComponent.xaml",
+              "RelativeToolTip": "Demo\\Components\\RoadMapComponent.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-10-24T15:57:24.734Z",
+              "WhenOpened": "2026-10-26T11:00:01.304Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Rarity.cs",
-              "DocumentMoniker": "C:\\Users\\Gamer\\Desktop\\Scripts\\Maui\\PixelDeck\\Demo\\Demo\\Models\\Cards\\Rarity.cs",
-              "RelativeDocumentMoniker": "Demo\\Models\\Cards\\Rarity.cs",
-              "ToolTip": "C:\\Users\\Gamer\\Desktop\\Scripts\\Maui\\PixelDeck\\Demo\\Demo\\Models\\Cards\\Rarity.cs",
-              "RelativeToolTip": "Demo\\Models\\Cards\\Rarity.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAA7wCEAAABKAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "Level.cs",
+              "DocumentMoniker": "C:\\Users\\12502139\\Desktop\\ProgramLib\\Maui\\Repos\\MobileApp\\Demo\\Demo\\Models\\Level.cs",
+              "RelativeDocumentMoniker": "Demo\\Models\\Level.cs",
+              "ToolTip": "C:\\Users\\12502139\\Desktop\\ProgramLib\\Maui\\Repos\\MobileApp\\Demo\\Demo\\Models\\Level.cs",
+              "RelativeToolTip": "Demo\\Models\\Level.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-24T15:54:56.511Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ShopItem.xaml",
-              "DocumentMoniker": "C:\\Users\\Gamer\\Desktop\\Scripts\\Maui\\PixelDeck\\Demo\\Demo\\Components\\ShopItem.xaml",
-              "RelativeDocumentMoniker": "Demo\\Components\\ShopItem.xaml",
-              "ToolTip": "C:\\Users\\Gamer\\Desktop\\Scripts\\Maui\\PixelDeck\\Demo\\Demo\\Components\\ShopItem.xaml",
-              "RelativeToolTip": "Demo\\Components\\ShopItem.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-10-24T15:43:56.685Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Card.cs",
-              "DocumentMoniker": "C:\\Users\\Gamer\\Desktop\\Scripts\\Maui\\PixelDeck\\Demo\\Demo\\Models\\Cards\\Card.cs",
-              "RelativeDocumentMoniker": "Demo\\Models\\Cards\\Card.cs",
-              "ToolTip": "C:\\Users\\Gamer\\Desktop\\Scripts\\Maui\\PixelDeck\\Demo\\Demo\\Models\\Cards\\Card.cs",
-              "RelativeToolTip": "Demo\\Models\\Cards\\Card.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAgAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-24T15:39:00.199Z"
+              "WhenOpened": "2026-10-26T10:49:06.076Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Shop.cs",
-              "DocumentMoniker": "C:\\Users\\Gamer\\Desktop\\Scripts\\Maui\\PixelDeck\\Demo\\Demo\\Data\\Shop.cs",
-              "RelativeDocumentMoniker": "Demo\\Data\\Shop.cs",
-              "ToolTip": "C:\\Users\\Gamer\\Desktop\\Scripts\\Maui\\PixelDeck\\Demo\\Demo\\Data\\Shop.cs",
-              "RelativeToolTip": "Demo\\Data\\Shop.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAgwBsAAAAYAAAAAAAAAA==",
+              "Title": "RoadmapLevel.cs",
+              "DocumentMoniker": "C:\\Users\\12502139\\Desktop\\ProgramLib\\Maui\\Repos\\MobileApp\\Demo\\Demo\\Models\\RoadmapLevel.cs",
+              "RelativeDocumentMoniker": "Demo\\Models\\RoadmapLevel.cs",
+              "ToolTip": "C:\\Users\\12502139\\Desktop\\ProgramLib\\Maui\\Repos\\MobileApp\\Demo\\Demo\\Models\\RoadmapLevel.cs",
+              "RelativeToolTip": "Demo\\Models\\RoadmapLevel.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAmwCwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-24T15:32:01.864Z"
+              "WhenOpened": "2026-10-26T10:44:04.671Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RoadMapTileComponent.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\12502139\\Desktop\\ProgramLib\\Maui\\Repos\\MobileApp\\Demo\\Demo\\Components\\RoadMapTileComponent.xaml.cs",
+              "RelativeDocumentMoniker": "Demo\\Components\\RoadMapTileComponent.xaml.cs",
+              "ToolTip": "C:\\Users\\12502139\\Desktop\\ProgramLib\\Maui\\Repos\\MobileApp\\Demo\\Demo\\Components\\RoadMapTileComponent.xaml.cs",
+              "RelativeToolTip": "Demo\\Components\\RoadMapTileComponent.xaml.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAgwB0AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-26T10:43:41.621Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "MainPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Gamer\\Desktop\\Scripts\\Maui\\PixelDeck\\Demo\\Demo\\MainPage.xaml.cs",
-              "RelativeDocumentMoniker": "Demo\\MainPage.xaml.cs",
-              "ToolTip": "C:\\Users\\Gamer\\Desktop\\Scripts\\Maui\\PixelDeck\\Demo\\Demo\\MainPage.xaml.cs",
-              "RelativeToolTip": "Demo\\MainPage.xaml.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAYwDYAAABSAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-24T15:31:47.007Z",
+              "Title": "RoadMapTileComponent.xaml",
+              "DocumentMoniker": "C:\\Users\\12502139\\Desktop\\ProgramLib\\Maui\\Repos\\MobileApp\\Demo\\Demo\\Components\\RoadMapTileComponent.xaml",
+              "RelativeDocumentMoniker": "Demo\\Components\\RoadMapTileComponent.xaml",
+              "ToolTip": "C:\\Users\\12502139\\Desktop\\ProgramLib\\Maui\\Repos\\MobileApp\\Demo\\Demo\\Components\\RoadMapTileComponent.xaml",
+              "RelativeToolTip": "Demo\\Components\\RoadMapTileComponent.xaml",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAuwDYAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-10-26T10:41:03.438Z",
               "EditorCaption": ""
             }
           ]

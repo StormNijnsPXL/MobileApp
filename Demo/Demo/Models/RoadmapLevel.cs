@@ -6,15 +6,13 @@ namespace Demo.Models
 {
     class RoadmapLevel
     {
-        public static Dictionary<int, RoadmapLevel> Levels { get; } = new();
+        public static Level? SelectedLevel { get; set; }
+        public static Dictionary<int, RoadmapLevel> Levels { get; } = [];
 
         public Level? TopLevel { get; set; }
         public Level? BottomLevel { get; set; }
 
-        public RoadmapLevel(
-            int level,
-            Level? bottomLevel,
-            Level? topLevel)
+        public RoadmapLevel(int level, Level? bottomLevel, Level? topLevel)
         {
             BottomLevel = bottomLevel;
             TopLevel = topLevel;
@@ -38,11 +36,13 @@ namespace Demo.Models
                 null
             );
 
-            new RoadmapLevel(
+            RoadmapLevel startLevel = new RoadmapLevel(
                 1,
                 new Level(0, "START", "Icons/scrap.png"),
                 new Level(1, "CAVE", "Icons/scrap.png")
             );
+            startLevel?.BottomLevel?.IsLocked = false;
+
             new RoadmapLevel(
                 0,
                 null,

@@ -3,6 +3,8 @@ using SkiaSharp.Views.Maui;
 using SkiaSharp.Views.Maui.Controls;
 using System.Diagnostics;
 
+// source: https://mono.github.io/SkiaSharp/docs/guides/index.html
+
 namespace Demo.Models.SkiaSharp;
 public class PixelArt : SKCanvasView
 {
