@@ -7,6 +7,7 @@ namespace Demo.Models
     internal class User
     {
         public int UserId { get; set; }
+        public string LastGameId { get; set; }
         public string Name { get; set; }
         public string DisplayName { get; set; }
         public DateTime DateCreated { get; set; }

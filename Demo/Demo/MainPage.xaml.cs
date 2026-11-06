@@ -53,6 +53,7 @@ namespace Demo
             UsernameLabel.Text = LocalData.User.DisplayName;
             LevelLabel.Text = $"Lv.{LocalData.PlayerData.Level}";
             ExperienceProgressBar.Progress = LocalData.PlayerData.Experience / 100;
+            BotOpponent.CreateBots();
             //
 
             await LoadingScreen.TweenOut();

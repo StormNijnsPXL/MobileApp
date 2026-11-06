@@ -77,9 +77,7 @@
             EnsureViewsAdded();
 
             ContentView nextView = Views[key];
-
-            ContentView? currentView = Views.Values
-                .FirstOrDefault(view => view.IsVisible);
+            ContentView? currentView = Views.Values.FirstOrDefault(view => view.IsVisible);
 
             if (currentView == nextView)
                 return;
@@ -96,14 +94,12 @@
 
             try
             {
-                // Place the incoming view just outside the screen.
                 nextView.TranslationX = direction * width;
                 nextView.TranslationY = 0;
                 nextView.IsVisible = true;
 
                 await Task.Yield();
 
-                // Slide both views at the same time.
                 Task incoming = nextView.TranslateToAsync(
                     0, 0, 280, Easing.CubicOut);
 
@@ -114,7 +110,6 @@
 
                 await Task.WhenAll(incoming, outgoing);
 
-                // Hide the old page, but keep it alive.
                 if (currentView != null)
                 {
                     currentView.IsVisible = false;

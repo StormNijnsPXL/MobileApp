@@ -3,24 +3,44 @@
   "WorkspaceRootPath": "C:\\Users\\12502139\\Desktop\\ProgramLib\\Maui\\Repos\\MobileApp\\Demo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D1CCB24F-A868-F185-9228-8CC249247C79}|Demo\\Demo.csproj|c:\\users\\12502139\\desktop\\programlib\\maui\\repos\\mobileapp\\demo\\demo\\components\\roadmaptilecomponent.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D1CCB24F-A868-F185-9228-8CC249247C79}|Demo\\Demo.csproj|solutionrelative:demo\\components\\roadmaptilecomponent.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D1CCB24F-A868-F185-9228-8CC249247C79}|Demo\\Demo.csproj|c:\\users\\12502139\\desktop\\programlib\\maui\\repos\\mobileapp\\demo\\demo\\views\\playview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1CCB24F-A868-F185-9228-8CC249247C79}|Demo\\Demo.csproj|solutionrelative:demo\\views\\playview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D1CCB24F-A868-F185-9228-8CC249247C79}|Demo\\Demo.csproj|c:\\users\\12502139\\desktop\\programlib\\maui\\repos\\mobileapp\\demo\\demo\\components\\roadmaptilecomponent.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{D1CCB24F-A868-F185-9228-8CC249247C79}|Demo\\Demo.csproj|solutionrelative:demo\\components\\roadmaptilecomponent.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{D1CCB24F-A868-F185-9228-8CC249247C79}|Demo\\Demo.csproj|c:\\users\\12502139\\desktop\\programlib\\maui\\repos\\mobileapp\\demo\\demo\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1CCB24F-A868-F185-9228-8CC249247C79}|Demo\\Demo.csproj|solutionrelative:demo\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D1CCB24F-A868-F185-9228-8CC249247C79}|Demo\\Demo.csproj|c:\\users\\12502139\\desktop\\programlib\\maui\\repos\\mobileapp\\demo\\demo\\models\\level.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D1CCB24F-A868-F185-9228-8CC249247C79}|Demo\\Demo.csproj|solutionrelative:demo\\models\\level.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D1CCB24F-A868-F185-9228-8CC249247C79}|Demo\\Demo.csproj|c:\\users\\12502139\\desktop\\programlib\\maui\\repos\\mobileapp\\demo\\demo\\services\\navigationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1CCB24F-A868-F185-9228-8CC249247C79}|Demo\\Demo.csproj|solutionrelative:demo\\services\\navigationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D1CCB24F-A868-F185-9228-8CC249247C79}|Demo\\Demo.csproj|c:\\users\\12502139\\desktop\\programlib\\maui\\repos\\mobileapp\\demo\\demo\\models\\roadmaplevel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D1CCB24F-A868-F185-9228-8CC249247C79}|Demo\\Demo.csproj|solutionrelative:demo\\models\\roadmaplevel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D1CCB24F-A868-F185-9228-8CC249247C79}|Demo\\Demo.csproj|c:\\users\\12502139\\desktop\\programlib\\maui\\repos\\mobileapp\\demo\\demo\\components\\roadmapcomponent.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{D1CCB24F-A868-F185-9228-8CC249247C79}|Demo\\Demo.csproj|solutionrelative:demo\\components\\roadmapcomponent.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{D1CCB24F-A868-F185-9228-8CC249247C79}|Demo\\Demo.csproj|c:\\users\\12502139\\desktop\\programlib\\maui\\repos\\mobileapp\\demo\\demo\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1CCB24F-A868-F185-9228-8CC249247C79}|Demo\\Demo.csproj|solutionrelative:demo\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1CCB24F-A868-F185-9228-8CC249247C79}|Demo\\Demo.csproj|c:\\users\\12502139\\desktop\\programlib\\maui\\repos\\mobileapp\\demo\\demo\\views\\gameview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D1CCB24F-A868-F185-9228-8CC249247C79}|Demo\\Demo.csproj|solutionrelative:demo\\views\\gameview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1CCB24F-A868-F185-9228-8CC249247C79}|Demo\\Demo.csproj|c:\\users\\12502139\\desktop\\programlib\\maui\\repos\\mobileapp\\demo\\demo\\data\\localdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1CCB24F-A868-F185-9228-8CC249247C79}|Demo\\Demo.csproj|solutionrelative:demo\\data\\localdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1CCB24F-A868-F185-9228-8CC249247C79}|Demo\\Demo.csproj|c:\\users\\12502139\\desktop\\programlib\\maui\\repos\\mobileapp\\demo\\demo\\models\\botopponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1CCB24F-A868-F185-9228-8CC249247C79}|Demo\\Demo.csproj|solutionrelative:demo\\models\\botopponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1CCB24F-A868-F185-9228-8CC249247C79}|Demo\\Demo.csproj|c:\\users\\12502139\\desktop\\programlib\\maui\\repos\\mobileapp\\demo\\demo\\models\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1CCB24F-A868-F185-9228-8CC249247C79}|Demo\\Demo.csproj|solutionrelative:demo\\models\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1CCB24F-A868-F185-9228-8CC249247C79}|Demo\\Demo.csproj|c:\\users\\12502139\\desktop\\programlib\\maui\\repos\\mobileapp\\demo\\demo\\views\\playview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D1CCB24F-A868-F185-9228-8CC249247C79}|Demo\\Demo.csproj|solutionrelative:demo\\views\\playview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +50,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -39,27 +59,40 @@
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "RoadMapComponent.xaml",
-              "DocumentMoniker": "C:\\Users\\12502139\\Desktop\\ProgramLib\\Maui\\Repos\\MobileApp\\Demo\\Demo\\Components\\RoadMapComponent.xaml",
-              "RelativeDocumentMoniker": "Demo\\Components\\RoadMapComponent.xaml",
-              "ToolTip": "C:\\Users\\12502139\\Desktop\\ProgramLib\\Maui\\Repos\\MobileApp\\Demo\\Demo\\Components\\RoadMapComponent.xaml",
-              "RelativeToolTip": "Demo\\Components\\RoadMapComponent.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-10-26T11:00:01.304Z",
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\12502139\\Desktop\\ProgramLib\\Maui\\Repos\\MobileApp\\Demo\\Demo\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "Demo\\MainPage.xaml.cs",
+              "ToolTip": "C:\\Users\\12502139\\Desktop\\ProgramLib\\Maui\\Repos\\MobileApp\\Demo\\Demo\\MainPage.xaml.cs",
+              "RelativeToolTip": "Demo\\MainPage.xaml.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAowDcAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-05T04:37:06.541Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Level.cs",
-              "DocumentMoniker": "C:\\Users\\12502139\\Desktop\\ProgramLib\\Maui\\Repos\\MobileApp\\Demo\\Demo\\Models\\Level.cs",
-              "RelativeDocumentMoniker": "Demo\\Models\\Level.cs",
-              "ToolTip": "C:\\Users\\12502139\\Desktop\\ProgramLib\\Maui\\Repos\\MobileApp\\Demo\\Demo\\Models\\Level.cs",
-              "RelativeToolTip": "Demo\\Models\\Level.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 7,
+              "Title": "BotOpponent.cs",
+              "DocumentMoniker": "C:\\Users\\12502139\\Desktop\\ProgramLib\\Maui\\Repos\\MobileApp\\Demo\\Demo\\Models\\BotOpponent.cs",
+              "RelativeDocumentMoniker": "Demo\\Models\\BotOpponent.cs",
+              "ToolTip": "C:\\Users\\12502139\\Desktop\\ProgramLib\\Maui\\Repos\\MobileApp\\Demo\\Demo\\Models\\BotOpponent.cs",
+              "RelativeToolTip": "Demo\\Models\\BotOpponent.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAgwBwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-26T10:49:06.076Z",
+              "WhenOpened": "2026-11-05T04:30:39.456Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "LocalData.cs",
+              "DocumentMoniker": "C:\\Users\\12502139\\Desktop\\ProgramLib\\Maui\\Repos\\MobileApp\\Demo\\Demo\\Data\\LocalData.cs",
+              "RelativeDocumentMoniker": "Demo\\Data\\LocalData.cs",
+              "ToolTip": "C:\\Users\\12502139\\Desktop\\ProgramLib\\Maui\\Repos\\MobileApp\\Demo\\Demo\\Data\\LocalData.cs",
+              "RelativeToolTip": "Demo\\Data\\LocalData.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABwAAABeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-05T04:28:19.234Z",
               "EditorCaption": ""
             },
             {
@@ -70,35 +103,87 @@
               "RelativeDocumentMoniker": "Demo\\Models\\RoadmapLevel.cs",
               "ToolTip": "C:\\Users\\12502139\\Desktop\\ProgramLib\\Maui\\Repos\\MobileApp\\Demo\\Demo\\Models\\RoadmapLevel.cs",
               "RelativeToolTip": "Demo\\Models\\RoadmapLevel.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAmwCwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-26T10:44:04.671Z",
+              "WhenOpened": "2026-11-05T04:26:48.53Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "NavigationService.cs",
+              "DocumentMoniker": "C:\\Users\\12502139\\Desktop\\ProgramLib\\Maui\\Repos\\MobileApp\\Demo\\Demo\\Services\\NavigationService.cs",
+              "RelativeDocumentMoniker": "Demo\\Services\\NavigationService.cs",
+              "ToolTip": "C:\\Users\\12502139\\Desktop\\ProgramLib\\Maui\\Repos\\MobileApp\\Demo\\Demo\\Services\\NavigationService.cs",
+              "RelativeToolTip": "Demo\\Services\\NavigationService.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAuwAgAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-05T04:24:54.973Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "RoadMapTileComponent.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\12502139\\Desktop\\ProgramLib\\Maui\\Repos\\MobileApp\\Demo\\Demo\\Components\\RoadMapTileComponent.xaml.cs",
-              "RelativeDocumentMoniker": "Demo\\Components\\RoadMapTileComponent.xaml.cs",
-              "ToolTip": "C:\\Users\\12502139\\Desktop\\ProgramLib\\Maui\\Repos\\MobileApp\\Demo\\Demo\\Components\\RoadMapTileComponent.xaml.cs",
-              "RelativeToolTip": "Demo\\Components\\RoadMapTileComponent.xaml.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAgwB0AAAAfAAAAAAAAAA==",
+              "Title": "PlayView.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\12502139\\Desktop\\ProgramLib\\Maui\\Repos\\MobileApp\\Demo\\Demo\\Views\\PlayView.xaml.cs",
+              "RelativeDocumentMoniker": "Demo\\Views\\PlayView.xaml.cs",
+              "ToolTip": "C:\\Users\\12502139\\Desktop\\ProgramLib\\Maui\\Repos\\MobileApp\\Demo\\Demo\\Views\\PlayView.xaml.cs",
+              "RelativeToolTip": "Demo\\Views\\PlayView.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-26T10:43:41.621Z",
+              "WhenOpened": "2026-11-05T04:24:34.497Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "RoadMapTileComponent.xaml",
-              "DocumentMoniker": "C:\\Users\\12502139\\Desktop\\ProgramLib\\Maui\\Repos\\MobileApp\\Demo\\Demo\\Components\\RoadMapTileComponent.xaml",
-              "RelativeDocumentMoniker": "Demo\\Components\\RoadMapTileComponent.xaml",
-              "ToolTip": "C:\\Users\\12502139\\Desktop\\ProgramLib\\Maui\\Repos\\MobileApp\\Demo\\Demo\\Components\\RoadMapTileComponent.xaml",
-              "RelativeToolTip": "Demo\\Components\\RoadMapTileComponent.xaml",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAuwDYAAAAbAAAAAAAAAA==",
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\12502139\\Desktop\\ProgramLib\\Maui\\Repos\\MobileApp\\Demo\\Demo\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Demo\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\12502139\\Desktop\\ProgramLib\\Maui\\Repos\\MobileApp\\Demo\\Demo\\Models\\User.cs",
+              "RelativeToolTip": "Demo\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-05T04:14:29.203Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Game.cs",
+              "DocumentMoniker": "C:\\Users\\12502139\\Desktop\\ProgramLib\\Maui\\Repos\\MobileApp\\Demo\\Demo\\Models\\Game.cs",
+              "RelativeDocumentMoniker": "Demo\\Models\\Game.cs",
+              "ToolTip": "C:\\Users\\12502139\\Desktop\\ProgramLib\\Maui\\Repos\\MobileApp\\Demo\\Demo\\Models\\Game.cs",
+              "RelativeToolTip": "Demo\\Models\\Game.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAABcAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-05T04:02:40.09Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "GameView.xaml",
+              "DocumentMoniker": "C:\\Users\\12502139\\Desktop\\ProgramLib\\Maui\\Repos\\MobileApp\\Demo\\Demo\\Views\\GameView.xaml",
+              "RelativeDocumentMoniker": "Demo\\Views\\GameView.xaml",
+              "ToolTip": "C:\\Users\\12502139\\Desktop\\ProgramLib\\Maui\\Repos\\MobileApp\\Demo\\Demo\\Views\\GameView.xaml",
+              "RelativeToolTip": "Demo\\Views\\GameView.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFwAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-10-26T10:41:03.438Z",
+              "WhenOpened": "2026-11-05T03:53:41.656Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "PlayView.xaml",
+              "DocumentMoniker": "C:\\Users\\12502139\\Desktop\\ProgramLib\\Maui\\Repos\\MobileApp\\Demo\\Demo\\Views\\PlayView.xaml",
+              "RelativeDocumentMoniker": "Demo\\Views\\PlayView.xaml",
+              "ToolTip": "C:\\Users\\12502139\\Desktop\\ProgramLib\\Maui\\Repos\\MobileApp\\Demo\\Demo\\Views\\PlayView.xaml",
+              "RelativeToolTip": "Demo\\Views\\PlayView.xaml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-11-05T03:53:37.166Z",
               "EditorCaption": ""
             }
           ]

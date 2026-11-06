@@ -1,3 +1,4 @@
+using Demo.Data;
 using Demo.Models;
 using Demo.Models.Cards;
 using Demo.Services;
@@ -14,7 +15,12 @@ public partial class PlayView : ContentView
 
     private async void Play_Clicked(object sender, EventArgs e)
     {
-		await NavigationService.JumpToPage("Game");
+        Level? selectedLevel = RoadmapLevel.SelectedLevel;
+        if (selectedLevel == null) 
+            return;
+
+        Game game = new Game(LocalData.User, BotOpponent.GetRandomOpponent().User);
+        await NavigationService.JumpToPage("Game");
     }
     private void DisplayRoadmap(Dictionary<int, RoadmapLevel> levels)
     {
