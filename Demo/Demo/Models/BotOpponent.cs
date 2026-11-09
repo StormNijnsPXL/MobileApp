@@ -1,9 +1,4 @@
-﻿using Demo.Models.Cards;
-using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Demo.Models
+﻿namespace Demo.Models
 {
     internal class BotOpponent
     {

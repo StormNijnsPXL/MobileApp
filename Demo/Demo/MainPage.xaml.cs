@@ -4,6 +4,7 @@ using Demo.Models.Animations;
 using Demo.Models.Cards;
 using Demo.Pages;
 using Demo.Services;
+using System.Diagnostics;
 
 namespace Demo
 {
@@ -19,23 +20,6 @@ namespace Demo
             LoadingScreen.CreateTweens();
             LoadingScreen.Reset();
 
-            Rarity.CreateRarities();
-            Card.CreateCards();
-            LocalData.CreateData();
-            RoadmapLevel.CreateLevels();
-            Shop.CreateShopItems();
-
-            NavigationService.AppView = AppGrid;
-            NavigationService.Views = new Dictionary<string, ContentView>()
-            {
-                { "Deck", new DeckView() },
-                { "Store", new StoreView() },
-                { "Leaderboard", new LeaderboardView() },
-                { "Quests", new QuestsView() },
-                { "Play", new PlayView() },
-                { "Game", new GameView() },
-            };
-
             loaded = true;
         }
         protected override async void OnAppearing()
@@ -48,17 +32,41 @@ namespace Demo
             await LoadingScreen.TweenIn();
 
             // Loading
-            await NavigationService.JumpToPage("Play");
-            SelectViewButton(MenuPlayBtn);
+            Rarity.CreateRarities();
+            await Card.LoadCards();
+            LocalData.CreateData();
             UsernameLabel.Text = LocalData.User.DisplayName;
             LevelLabel.Text = $"Lv.{LocalData.PlayerData.Level}";
             ExperienceProgressBar.Progress = LocalData.PlayerData.Experience / 100;
+
+            NavigationService.AppView = AppGrid;
+            NavigationService.Views = new Dictionary<string, ContentView>()
+            {
+                { "Deck", new DeckView() },
+                { "Store", new StoreView() },
+                { "Leaderboard", new LeaderboardView() },
+                { "Quests", new QuestsView() },
+                { "Play", new PlayView() },
+                { "Game", new GameView() },
+            };
+
+            RoadmapLevel.CreateLevels();
             BotOpponent.CreateBots();
+            Shop.CreateShopItems();
+
+            await NavigationService.JumpToPage("Play");
+            SelectViewButton(MenuPlayBtn);
+
+            foreach (Card card in Shop.ShopItems)
+            {
+                Debug.WriteLine(card);
+            }
             //
 
             await LoadingScreen.TweenOut();
             await LoadingScreenFade();
 
+            // App moving background
             while (true)
             {
                 await BackgroundImage.TranslateToAsync(-24, -8, 7000, Easing.SinInOut);

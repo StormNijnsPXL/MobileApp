@@ -4,8 +4,8 @@ public partial class StoreView : ContentView
 {
 	public StoreView()
 	{
-		InitializeComponent();
+        InitializeComponent();
 
-        ShopCollectionView.ItemsSource = Data.Shop.ShopItems;
+        ShopCollectionView.ItemsSource = Data.Shop.ShopItems; // vervang met MVVM observable things
     }
 }
