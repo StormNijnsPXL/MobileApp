@@ -34,25 +34,25 @@
                 Grid.Row="0"
                 >
                 <tool:PixelArt
-                    ImageName="UI/cardRed.png"
+                    ImageName="UI/cardWhite.png"
                     Grid.Column="0"
                     HeightRequest="94"
                     WidthRequest="65"
                     />
                 <tool:PixelArt
-                    ImageName="UI/cardRed.png"
+                    ImageName="UI/cardWhite.png"
                     Grid.Column="1"
                     HeightRequest="94"
                     WidthRequest="65"
                     />
                 <tool:PixelArt
-                    ImageName="UI/cardRed.png"
+                    ImageName="UI/cardWhite.png"
                     Grid.Column="2"
                     HeightRequest="94"
                     WidthRequest="65"
                     />
                 <tool:PixelArt
-                    ImageName="UI/cardRed.png"
+                    ImageName="UI/cardWhite.png"
                     Grid.Column="3"
                     HeightRequest="94"
                     WidthRequest="65"
@@ -62,30 +62,50 @@
                 ColumnDefinitions="*,*,*,*"
                 Grid.Row="1"
                 >
-                <tool:PixelArt
-                    ImageName="UI/cardRed.png"
+                <Border
+                    StrokeThickness="0"
                     Grid.Column="0"
                     HeightRequest="94"
                     WidthRequest="65"
-                    />
-                <tool:PixelArt
-                    ImageName="UI/cardRed.png"
+                    x:Name="Slot1"
+                    >
+                    <tool:PixelArt
+                        ImageName="UI/cardRed.png"
+                        />
+                </Border>
+                <Border
+                    StrokeThickness="0"
                     Grid.Column="1"
                     HeightRequest="94"
                     WidthRequest="65"
-                    />
-                <tool:PixelArt
-                    ImageName="UI/cardRed.png"
+                    x:Name="Slot2"
+                    >
+                    <tool:PixelArt
+                        ImageName="UI/cardRed.png"
+                        />
+                </Border>
+                <Border
+                    StrokeThickness="0"
                     Grid.Column="2"
                     HeightRequest="94"
                     WidthRequest="65"
-                    />
-                <tool:PixelArt
-                    ImageName="UI/cardRed.png"
+                    x:Name="Slot3"
+                    >
+                    <tool:PixelArt
+                        ImageName="UI/cardRed.png"
+                        />
+                </Border>
+                <Border
+                    StrokeThickness="0"
                     Grid.Column="3"
                     HeightRequest="94"
                     WidthRequest="65"
-                    />
+                    x:Name="Slot4"
+                    >
+                    <tool:PixelArt
+                        ImageName="UI/cardRed.png"
+                        />
+                </Border>
             </Grid>
         </Grid>
         
@@ -93,30 +113,58 @@
             Grid.Row="2"
             ColumnDefinitions="*,*,*,*"
             >
-            <tool:PixelArt
-                ImageName="UI/cardSpecial.png"
+            <Border
+                StrokeThickness="0"
                 Grid.Column="0"
                 HeightRequest="94"
                 WidthRequest="65"
-                />
-            <tool:PixelArt
-                ImageName="UI/cardSpecial.png"
+                >
+                <Border.GestureRecognizers>
+                    <PanGestureRecognizer PanUpdated="OnPanUpdated"/>
+                </Border.GestureRecognizers>
+                <tool:PixelArt
+                    ImageName="UI/cardSpecial.png"
+                    />
+            </Border>
+            <Border
+                StrokeThickness="0"
                 Grid.Column="1"
                 HeightRequest="94"
                 WidthRequest="65"
-                />
-            <tool:PixelArt
-                ImageName="UI/cardSpecial.png"
+                >
+                <Border.GestureRecognizers>
+                    <PanGestureRecognizer PanUpdated="OnPanUpdated"/>
+                </Border.GestureRecognizers>
+                <tool:PixelArt
+                    ImageName="UI/cardSpecial.png"
+                    />
+            </Border>
+            <Border
+                StrokeThickness="0"
                 Grid.Column="2"
                 HeightRequest="94"
                 WidthRequest="65"
-                />
-            <tool:PixelArt
-                ImageName="UI/cardSpecial.png"
+                >
+                <Border.GestureRecognizers>
+                    <PanGestureRecognizer PanUpdated="OnPanUpdated"/>
+                </Border.GestureRecognizers>
+                <tool:PixelArt
+                    ImageName="UI/cardSpecial.png"
+                    />
+            </Border>
+            <Border
+                StrokeThickness="0"
                 Grid.Column="3"
                 HeightRequest="94"
                 WidthRequest="65"
-                />
+                >
+                <Border.GestureRecognizers>
+                    <PanGestureRecognizer PanUpdated="OnPanUpdated"/>
+                </Border.GestureRecognizers>
+                <tool:PixelArt
+                    ImageName="UI/cardSpecial.png"
+                    />
+            </Border>
         </Grid>
     </Grid>
 </ContentView>

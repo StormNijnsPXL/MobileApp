@@ -4,6 +4,7 @@ namespace Demo.Models
 {
     internal class PlayerData
     {
+        public User User { get; set; }
         public Deck Deck { get; set; }
         public uint Level { get; set; }
         public uint Experience { get; set; }

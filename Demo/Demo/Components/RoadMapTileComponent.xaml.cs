@@ -20,8 +20,6 @@ public partial class RoadMapTileComponent : ContentView
         newBorder = null;
 
         RoadmapLevel.SelectedLevel = level;
-
-        Debug.WriteLine(level);
     }
     private void RoadMapTile_Clicked(object sender, TappedEventArgs e)
     {

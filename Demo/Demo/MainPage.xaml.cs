@@ -39,6 +39,10 @@ namespace Demo
             LevelLabel.Text = $"Lv.{LocalData.PlayerData.Level}";
             ExperienceProgressBar.Progress = LocalData.PlayerData.Experience / 100;
 
+            RoadmapLevel.CreateLevels();
+            Shop.CreateShopItems();
+            BotOpponent.CreateBots();
+
             NavigationService.AppView = AppGrid;
             NavigationService.Views = new Dictionary<string, ContentView>()
             {
@@ -49,10 +53,6 @@ namespace Demo
                 { "Play", new PlayView() },
                 { "Game", new GameView() },
             };
-
-            RoadmapLevel.CreateLevels();
-            BotOpponent.CreateBots();
-            Shop.CreateShopItems();
 
             await NavigationService.JumpToPage("Play");
             SelectViewButton(MenuPlayBtn);

@@ -24,6 +24,9 @@ namespace Demo.Data
             ]);
 
             PlayerData = new PlayerData(Deck, 1, 0, new List<int> { 1, 2, 3, 4, 5, 6, 7, 8 });
+
+            User.PlayerData = PlayerData;
+            PlayerData.User = User;
         }
     }
 }

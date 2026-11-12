@@ -3,10 +3,11 @@
     internal class User
     {
         public int UserId { get; set; }
-        public string LastGameId { get; set; }
+        public string? LastGameId { get; set; }
         public string Name { get; set; }
         public string DisplayName { get; set; }
         public DateTime DateCreated { get; set; }
+        public PlayerData PlayerData { get; set; }
         public User(int userId, string name, string displayName, DateTime dateCreated)
         {
             UserId = userId;

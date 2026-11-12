@@ -1,3 +1,5 @@
+using Demo.Models;
+
 namespace Demo.Pages;
 
 public partial class StoreView : ContentView
@@ -6,6 +8,6 @@ public partial class StoreView : ContentView
 	{
         InitializeComponent();
 
-        ShopCollectionView.ItemsSource = Data.Shop.ShopItems; // vervang met MVVM observable things
+        ShopCollectionView.ItemsSource = Shop.ShopItems; // vervang met MVVM observable things
     }
 }

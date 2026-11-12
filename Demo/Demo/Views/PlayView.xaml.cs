@@ -1,6 +1,7 @@
 using Demo.Data;
 using Demo.Models;
 using Demo.Services;
+using System.Diagnostics;
 
 namespace Demo.Pages;
 
@@ -18,7 +19,19 @@ public partial class PlayView : ContentView
         if (selectedLevel == null) 
             return;
 
-        Game game = new Game(LocalData.User, BotOpponent.GetRandomOpponent().User);
+        User user = LocalData.User;
+
+        if (!string.IsNullOrWhiteSpace(user.LastGameId))
+        {
+            Game? foundGame = Game.GetGameById(user.LastGameId);
+            if (foundGame != null && foundGame.Active)
+            {
+                await NavigationService.JumpToPage("Game");
+                return;
+            }
+        }
+        
+        Game game = new Game(user, BotOpponent.GetRandomOpponent().User);
         await NavigationService.JumpToPage("Game");
     }
     private void DisplayRoadmap(Dictionary<int, RoadmapLevel> levels)

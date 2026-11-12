@@ -1,7 +1,7 @@
 ﻿using Demo.Models.Cards;
 using System.Diagnostics;
 
-namespace Demo.Data
+namespace Demo.Models
 {
     internal class Shop
     {
